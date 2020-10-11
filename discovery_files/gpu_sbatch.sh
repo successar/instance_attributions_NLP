@@ -11,5 +11,7 @@
 #SBATCH --gres=gpu:v100-sxm2:1
 
 export CUDA_DEVICE=0
+export DATADIR=/scratch/jain.sar/influence_info/Datasets
+export OUTPUT_DIR=/scratch/jain.sar/influence_info/outputs
 
 $1 $2

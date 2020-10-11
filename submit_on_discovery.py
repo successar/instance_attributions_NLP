@@ -12,7 +12,7 @@ args, unknown = parser.parse_known_args()
 print("Running Command: ", args)
 
 envvars = {}
-for key, val in zip(unknown[:-1], unknown[1:]):
+for key, val in map(lambda x : x.split("="), unknown):
     envvars[key] = val
 
 envvars_command = " ".join([f"{key}={val}" for key, val in envvars.items()])
