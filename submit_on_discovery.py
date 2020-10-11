@@ -26,6 +26,8 @@ subprocess.run(["git", "status"], check=True)
 print("=" * 20)
 if input("Do you want to Proceed ?").upper() != "Y":
     exit(1)
+
+print("===== Pushing Local git to master =======")
 subprocess.run(["git", "push", "origin", "master"], check=True)
 
 try:
@@ -33,6 +35,7 @@ try:
     client.load_system_host_keys()
     client.connect("login.discovery.neu.edu", username="jain.sar")
 
+    print("======== Running on Cluster =========")
     stdin, stdout, stderr = client.exec_command(
         f"cd influence_info_repo; git checkout master; git pull origin master; {envvars_command} {args.script_command}"
     )
