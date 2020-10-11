@@ -1,0 +1,2 @@
+ssh disc "mkdir -p /scratch/jain.sar/influence_info/Datasets"
+rsync -av -e ssh --include="*/" --include="*.jsonl" --exclude='*' "Datasets/" jain.sar@xfer.discovery.neu.edu:"/scratch/jain.sar/influence_info/Datasets"

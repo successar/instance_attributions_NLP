@@ -19,7 +19,7 @@ class ImageReader(DatasetReader):
 
     @overrides
     def _read(self, file_path):
-        data_base_dir = os.environ.get("ROOT_DATADIR", "Datasets/")
+        data_base_dir = os.environ.get("DATADIR", "Datasets/")
         mnist_data = MNIST(root=data_base_dir, download=True, train="train" in file_path, transform=ToTensor())
         done_point = 5000 if "train" in file_path else 500
         for i, b in enumerate(mnist_data):

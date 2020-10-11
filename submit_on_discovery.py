@@ -37,7 +37,7 @@ try:
 
     print("======== Running on Cluster =========")
     stdin, stdout, stderr = client.exec_command(
-        f"cd influence_info_repo; git checkout master; git pull origin master; {envvars_command} {args.script_command}"
+        f"cd influence_info_repo; conda activate influence; git checkout master; git pull origin master; {envvars_command} {args.script_command}"
     )
     for line in stdout:
         print("... " + line.strip("\n"))
