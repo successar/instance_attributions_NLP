@@ -17,3 +17,5 @@ else
     echo "${OUTPUT_BASE_PATH}/metrics.json does not exist ... . TRAINING ";
     allennlp train -s $OUTPUT_BASE_PATH --include-package influence_info --force $CONFIG_FILE
 fi
+
+bash influence_info/commands/base_evaluate.sh
