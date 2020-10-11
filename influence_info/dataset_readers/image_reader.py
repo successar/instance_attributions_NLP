@@ -8,6 +8,8 @@ from overrides import overrides
 from torchvision.datasets import MNIST
 from torchvision.transforms import ToTensor
 
+import os
+
 
 @DatasetReader.register("image_reader")
 class ImageReader(DatasetReader):
@@ -17,7 +19,8 @@ class ImageReader(DatasetReader):
 
     @overrides
     def _read(self, file_path):
-        mnist_data = MNIST(root="Datasets/", download=True, train="train" in file_path, transform=ToTensor())
+        data_base_dir = os.environ.get("ROOT_DATADIR", "Datasets/")
+        mnist_data = MNIST(root=data_base_dir, download=True, train="train" in file_path, transform=ToTensor())
         done_point = 5000 if "train" in file_path else 500
         for i, b in enumerate(mnist_data):
             image, label = b[0].numpy(), b[1]
