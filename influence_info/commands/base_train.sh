@@ -11,7 +11,7 @@ export OUTPUT_BASE_PATH=$OUTPUT_BASE_PATH/$CLASSIFIER/
 
 export SEED=${RANDOM_SEED:-100}
 
-if [[ -f "${OUTPUT_BASE_PATH}/metrics.json" && -z "$again" ]]; then
+if [[ -f "${OUTPUT_BASE_PATH}/metrics.json" && ! -v again ]]; then
     echo "${OUTPUT_BASE_PATH}/metrics.json exists ... . Not running Training ";
 else 
     echo "${OUTPUT_BASE_PATH}/metrics.json does not exist ... . TRAINING ";
