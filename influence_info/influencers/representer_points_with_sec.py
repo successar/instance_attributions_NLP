@@ -74,7 +74,7 @@ class Representer_Points_With_Sec(BaseInfluencer):
         features = torch.cat(features, dim=0)
         probs = torch.nn.Softmax(dim=-1)(torch.cat(logits, dim=0))
 
-        supp_model = SupplementaryModel(features.shape[1], probs.shape[1]).to(features.device)
+        supp_model = SupplementaryModel(self._predictor._model, features.shape[1], probs.shape[1]).to(features.device)
         supp_model.optimize(features, probs)
 
         print(
