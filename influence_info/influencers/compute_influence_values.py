@@ -61,6 +61,10 @@ def run(args):
         training_loader, validation_loader
     )
 
+    output_subfolder = influencer.get_output_subfolder().strip()
+    if len(output_subfolder) > 0:
+        args.output_folder = os.path.join(args.output_folder, output_subfolder)
+
     dump_results(influence_values, training_idx, validation_idx, args)
 
     print("Job done. Rejoice !")

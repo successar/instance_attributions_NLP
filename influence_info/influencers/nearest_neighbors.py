@@ -19,10 +19,11 @@ class NearestNeighbors(BaseInfluencer):
         self._predictor._model.eval()
         self._predictor._model.requires_grad = False
 
+        self._sim_func = similarity_function
         self._similarity_function = sim_func_dict[similarity_function]
 
     def get_output_subfolder(self) :
-        pass
+        return f"sim_func:{self._sim_func}"
 
     def get_outputs_for_batch(self, batch):
         cuda_device = self._predictor.cuda_device

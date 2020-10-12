@@ -6,3 +6,6 @@ class BaseInfluencer(Registrable) :
 
     def compute_influence_values(self, training_loader, validation_loader) :
         raise NotImplementedError
+
+    def get_output_subfolder(self) :
+        return ""
