@@ -6,6 +6,8 @@ from scipy.special import softmax
 from sklearn.metrics import classification_report
 from tqdm import tqdm
 
+from scipy.stats import pearsonr
+
 
 class SupplementaryModel(torch.nn.Module):
     def __init__(self, model, feature_size, num_labels, reg=0.1):
@@ -31,7 +33,7 @@ class SupplementaryModel(torch.nn.Module):
         return loss
 
     def optimize(self, X, y):
-        optim = torch.optim.LBFGS(self.parameters(), max_iter=1000, line_search_fn="strong_wolfe")
+        optim = torch.optim.LBFGS(self.parameters(), max_iter=1000, history_size=500, line_search_fn="strong_wolfe")
         for _ in tqdm(range(3)):
 
             def closure():
@@ -139,7 +141,7 @@ class Representer_Points_With_Sec(BaseInfluencer):
         original_prediction = np.concatenate(original_prediction, axis=0)
 
         corr = [
-            np.corrcoef(original_prediction[i], reconstructed_prediction[i])[0, 1]
+            pearsonr(original_prediction[i], reconstructed_prediction[i])[0]
             for i in range(original_prediction.shape[0])
         ]
         print(np.mean(corr))
