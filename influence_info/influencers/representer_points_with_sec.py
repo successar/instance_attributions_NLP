@@ -10,7 +10,7 @@ from tqdm import tqdm
 class SupplementaryModel(torch.nn.Module):
     def __init__(self, feature_size, num_labels, reg=0.1):
         super().__init__()
-        self.classifier = torch.nn.Linear(feature_size, num_labels, bias=False)
+        self.classifier = torch.nn.Linear(feature_size, num_labels)
         self.reg = reg
 
     def forward(self, X, y=None):
@@ -124,7 +124,7 @@ class Representer_Points_With_Sec(BaseInfluencer):
             val_features = outputs["features"].cpu().data.numpy()
 
             validation_idx += outputs["idx"]
-            similarity.append(val_features @ features)  # (B, |T|)
+            similarity.append((val_features @ features) + 1)  # (B, |T|)
 
             probs = torch.nn.Softmax(dim=-1)(outputs["logits"])
 
