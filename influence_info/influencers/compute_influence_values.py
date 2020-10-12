@@ -63,6 +63,8 @@ def run(args):
 
     dump_results(influence_values, training_idx, validation_idx, args)
 
+    print("Job done. Rejoice !")
+
 
 from argparse import ArgumentParser
 
