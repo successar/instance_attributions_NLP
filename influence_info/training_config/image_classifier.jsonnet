@@ -7,9 +7,6 @@
   test_data_path: 'test',
   model: {
     type: "image_classifier",
-    regularizer: {
-      regexes: [["_classifier.*", {type : "l2", alpha: 0.001}]]
-    }
   },
   data_loader : {
     batch_size: std.parseInt(std.extVar('BSIZE')),
