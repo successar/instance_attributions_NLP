@@ -6,7 +6,7 @@
 #SBATCH --mem=40Gb
 #SBATCH --time=8:00:00
 #SBATCH --output=/scratch/jain.sar/runs/%x.%j.out
-#SBATCH --error=/scratch/jain.sar/runs/%x.%j.err
+#SBATCH --error=/scratch/jain.sar/runs/%x.%j.out
 #SBATCH --partition=multigpu
 #SBATCH --gres=gpu:v100-sxm2:1
 
