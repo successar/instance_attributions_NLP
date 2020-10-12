@@ -92,7 +92,8 @@ class Representer_Points_With_Sec(BaseInfluencer):
         training_idx = []
 
         for batch in tqdm(iter(training_loader)):
-            outputs = self.get_outputs_for_batch(batch)
+            with torch.no_grad() :
+                outputs = self.get_outputs_for_batch(batch)
 
             assert "features" in outputs, breakpoint()
 
@@ -116,7 +117,8 @@ class Representer_Points_With_Sec(BaseInfluencer):
         original_prediction = []
 
         for batch_instances in tqdm(iter(validation_loader)):
-            outputs = self.get_outputs_for_batch(batch_instances)
+            with torch.no_grad() :
+                outputs = self.get_outputs_for_batch(batch_instances)
 
             assert "features" in outputs, breakpoint()
             val_features = outputs["features"].cpu().data.numpy()

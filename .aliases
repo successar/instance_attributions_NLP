@@ -1,0 +1,3 @@
+alias dout="bash get_run_outputs.sh out"
+alias derr="bash get_run_outputs.sh err"
+alias dsq="bash disc_comm.sh \"squeue -u jain.sar\""
