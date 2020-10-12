@@ -40,7 +40,12 @@ print("\n".join(command.split("; ")))
 
 print()
 
-subprocess.run(["git", "status"], check=True)
+output = subprocess.run(["git", "status"], check=True, capture_output=True)
+print(str(output.stdout.decode('utf-8')))
+
+if 'influence_info' in str(output.stdout.decode('utf-8')) :
+    print("Code change in repo; commit")
+    exit(1)
 
 print("=" * 20)
 if (not args.y) and (input("Do you want to Proceed ?").upper() != "Y"):
