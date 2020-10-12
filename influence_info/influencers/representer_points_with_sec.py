@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 class SupplementaryModel(torch.nn.Module):
-    def __init__(self, feature_size, num_labels, reg=0.05):
+    def __init__(self, feature_size, num_labels, reg=0.1):
         super().__init__()
         self.classifier = torch.nn.Linear(feature_size, num_labels)
         self.reg = reg
@@ -30,8 +30,8 @@ class SupplementaryModel(torch.nn.Module):
         return loss
 
     def optimize(self, X, y):
-        optim = torch.optim.LBFGS(self.parameters(), max_iter=100, line_search_fn="strong_wolfe")
-        for _ in tqdm(range(30)):
+        optim = torch.optim.LBFGS(self.parameters(), max_iter=1000, line_search_fn="strong_wolfe")
+        for _ in tqdm(range(3)):
 
             def closure():
                 optim.zero_grad()
