@@ -45,7 +45,12 @@ print(str(output.stdout.decode('utf-8')))
 
 if 'influence_info' in str(output.stdout.decode('utf-8')) :
     print("Code change in repo; commit")
-    exit(1)
+    msg = input("Enter msg if you want to commit : ")
+    if len(msg.strip()) == 0 :
+        exit(1)
+    else :
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", msg.strip()], check=True)
 
 print("=" * 20)
 if (not args.y) and (input("Do you want to Proceed ?").upper() != "Y"):

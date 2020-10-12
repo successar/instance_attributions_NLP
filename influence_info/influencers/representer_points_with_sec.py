@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 class SupplementaryModel(torch.nn.Module):
-    def __init__(self, feature_size, num_labels, reg=0.01):
+    def __init__(self, feature_size, num_labels, reg=0.05):
         super().__init__()
         self.classifier = torch.nn.Linear(feature_size, num_labels)
         self.reg = reg
