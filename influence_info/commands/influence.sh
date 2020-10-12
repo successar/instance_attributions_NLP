@@ -5,6 +5,8 @@ export DEV_DATA_PATH=$DATADIR/${DATASET_NAME}/data/dev.jsonl
 
 export OUTPUT_BASE_PATH=${OUTPUT_DIR:-outputs}/${DATASET_NAME}/${EXP_NAME}/$CLASSIFIER/
 
+export PYTHONPATH=.
+
 python influence_info/influencers/compute_influence_values.py \
 --archive-file $OUTPUT_BASE_PATH/model.tar.gz \
 --training-file $TRAIN_DATA_PATH \
