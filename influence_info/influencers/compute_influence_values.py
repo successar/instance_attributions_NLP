@@ -65,6 +65,7 @@ def run(args):
     if len(output_subfolder) > 0:
         args.output_folder = os.path.join(args.output_folder, output_subfolder)
 
+    print(f"Dumping stuff to {args.output_folder}")
     dump_results(influence_values, training_idx, validation_idx, args)
 
     print("Job done. Rejoice !")
