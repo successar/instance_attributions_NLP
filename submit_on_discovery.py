@@ -6,6 +6,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("script_command", type=str)
 parser.add_argument("--sbatch", action="store_true")
+parser.add_argument("--hours", type=str, default="01")
 parser.add_argument("--y", action="store_true")
 args, unknown = parser.parse_known_args()
 
@@ -24,7 +25,7 @@ print(envvars_command)
 print("===== Will run on Discovery ======\n")
 
 if "sbatch" not in args.script_command and args.sbatch :
-    args.script_command = "sbatch --time 01:00:00 discovery_files/gpu_sbatch.sh " + args.script_command
+    args.script_command = f"sbatch --time {args.hours}:00:00 discovery_files/gpu_sbatch.sh " + args.script_command
 
 commands = [
     "cd influence_info_repo",

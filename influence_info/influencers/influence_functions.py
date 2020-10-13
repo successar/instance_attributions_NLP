@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 @BaseInfluencer.register("influence_function")
 class InfluenceFunctions(BaseInfluencer):
-    def __init__(self, predictor, param_regex: str, damping: float, scale: float, use_hessian: bool = True):
+    def __init__(self, predictor, param_regex: str, use_hessian: bool = True):
         self._predictor = predictor
         self._predictor._model.eval()
 
@@ -27,8 +27,8 @@ class InfluenceFunctions(BaseInfluencer):
             p for p in self._predictor._model.parameters() if p.requires_grad == True
         )
 
-        self._damping = damping
-        self._scale = scale
+        self._damping = 0.01
+        self._scale = 25
         self._use_hessian = use_hessian
 
     def compute_influence_values(
@@ -48,7 +48,7 @@ class InfluenceFunctions(BaseInfluencer):
                 assert len(train_ex["metadata"]) == 1, breakpoint()
                 train_grad = self.get_grad(train_ex)
 
-                if_value = sum((x * y).sum().item() for x, y in zip(ihvp, train_grad))
+                if_value = -sum((x * y).sum().item() for x, y in zip(ihvp, train_grad)) / len(training_loader)
                 influence_values[-1].append(if_value)
 
                 training_idx.append(train_ex["metadata"][0]["idx"])
@@ -72,14 +72,14 @@ class InfluenceFunctions(BaseInfluencer):
         self._predictor._model.zero_grad()
         v = self.get_grad(test_example)
 
-        if self._use_hessian:
+        if not self._use_hessian:
             return tuple(x.detach() for x in v)
 
         ihv_estimate = v
 
         training_loader = PyTorchDataLoader(training_loader.dataset, batch_size=1, shuffle=True)
         training_iter = iter(training_loader)
-        for _ in range(len(training_loader) // 5):
+        for _ in range(len(training_loader)):
             train_batch = next(training_iter)
 
             self._predictor._model.zero_grad()
