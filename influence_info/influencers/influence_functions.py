@@ -77,7 +77,7 @@ class InfluenceFunctions(BaseInfluencer):
 
         ihv_estimate = v
 
-        training_loader = PyTorchDataLoader(training_loader.dataset, batch_size=1, shuffle=True)
+        training_loader = PyTorchDataLoader(training_loader.dataset, batch_size=5, shuffle=True)
         training_iter = iter(training_loader)
         for _ in range(len(training_loader)):
             train_batch = next(training_iter)
