@@ -3,7 +3,37 @@ from allennlp.nn import util
 from influence_info.influencers.base_influencer import BaseInfluencer
 from tqdm import tqdm
 
+from scipy.linalg import sqrtm
+
 norm = lambda x : x / (torch.norm(x, p=2, dim=-1, keepdim=True) + 1e-9)
+
+class SuppModel :
+    def __init__(self, classifier) :
+        self._classifier = classifier
+        self._classifier.requires_grad = True
+        self._has_bias = self._classifier.bias is not None
+        weight, bias = self._classifier.weight, self._classifier.bias
+
+        if self._has_bias :
+            self._theta = torch.zeros((weight.shape[0], weight.shape[1] + 1))
+            self._theta[:, :-1] = weight
+            self._theta[:, -1] = bias
+
+            self._theta = torch.tensor(self._theta, requires_grad=True, device=weight.device)
+        else :
+            self._theta = torch.tensor(weight, requires_grad=True, device=weight.device)
+
+    def get_hessian(self, X, y) :
+        y = y.argmax(-1)
+
+        def func(theta) :
+            logits = X @ theta.t()
+            loss = torch.nn.CrossEntropyLoss(reduction="sum")(logits, y) + 0.001 * torch.sum(theta * theta)
+            return loss
+
+        hessian = torch.autograd.functional.hessian(func, self._theta)
+        
+        return hessian
 
 
 @BaseInfluencer.register("influence_function_softmax")
@@ -13,12 +43,22 @@ class InfluenceFunctionExact(BaseInfluencer):
         self._predictor._model.eval()
         self._predictor._model.requires_grad = False
 
+        self._has_bias = self._predictor._model._classifier.bias is not None
+
     def get_outputs_for_batch(self, batch):
         cuda_device = self._predictor.cuda_device
         model_input = util.move_to_device(batch, cuda_device)
         outputs = self._predictor._model(**model_input)
 
         return outputs
+
+    def get_pytorch_hessian(self, features, labels) :
+        # (T, F), (T, L), (T,)
+
+        model = SuppModel(self._predictor._model._classifier)
+        hessian = model.get_hessian(features, labels)
+        return hessian
+
 
     def get_features_and_logits(self, dataloader):
         idx = []
@@ -33,6 +73,9 @@ class InfluenceFunctionExact(BaseInfluencer):
             labels += list(outputs["gold_labels"].cpu().data.numpy())
 
         features = torch.cat(features, dim=0)
+        if self._has_bias :
+            features = torch.cat([features, torch.ones((features.shape[0], 1)).to(features.device)], dim=-1)
+
         logits = torch.cat(logits, dim=0)
         labels = torch.eye(logits.shape[1])[labels].to(self._predictor.cuda_device)
 
@@ -52,6 +95,8 @@ class InfluenceFunctionExact(BaseInfluencer):
             validation_labels,
         ) = self.get_features_and_logits(validation_loader)
 
+        # hessian = self.get_pytorch_hessian(training_features, training_labels)
+        # breakpoint()
 
         fvals = training_features.sum(0) != 0.0
         training_features = training_features[:, fvals]
@@ -66,12 +111,15 @@ class InfluenceFunctionExact(BaseInfluencer):
         )  # (T, L, L)
 
         for f, h_pred in tqdm(zip(training_features, H_pred)):
-            h_feat = f.unsqueeze(-1) * f.unsqueeze(0)  # (E, E)
-            H += h_feat.unsqueeze(-1).unsqueeze(-1) * h_pred.unsqueeze(0).unsqueeze(0)
+            f = f.unsqueeze(1)
+            h_feat = f @ f.t()
+            H += h_feat.unsqueeze(0).unsqueeze(2) * h_pred.unsqueeze(1).unsqueeze(3)
 
-        H = H.transpose(1, 2)
-        feature_size, label_size = H.shape[0], H.shape[1]
-        H = H.reshape(feature_size * label_size, feature_size * label_size)
+        feature_size, label_size = H.shape[1], H.shape[0]
+        H = H.reshape(feature_size * label_size, feature_size * label_size) / training_features.shape[0]
+        H += torch.eye(H.shape[0]).to(H.device) * 0.001
+
+        assert torch.allclose(H, H.t()), breakpoint()
 
         try :
             H_inv = torch.inverse(H)
@@ -90,7 +138,7 @@ class InfluenceFunctionExact(BaseInfluencer):
         ) * validation_features.unsqueeze(-1)
         validation_grad = validation_grad.reshape(validation_grad.shape[0], -1)
 
-        influence_values = -norm(validation_grad) @ norm(training_grad).transpose(0, 1)
+        influence_values = -validation_grad @ H_inv_training_grad.t()
 
         return influence_values.cpu().data.numpy(), training_idx, validation_idx
 
