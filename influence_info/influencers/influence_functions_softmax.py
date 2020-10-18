@@ -57,8 +57,6 @@ class InfluenceFunctionExact(BaseInfluencer):
         training_features = training_features[:, fvals]
         validation_features = validation_features[:, fvals]
 
-        breakpoint()
-
         training_probs = torch.nn.Softmax(dim=-1)(training_logits)
         validation_probs = torch.nn.Softmax(dim=-1)(validation_logits)
 
