@@ -31,6 +31,9 @@ class InfluenceFunctions(BaseInfluencer):
         self._scale = 25
         self._use_hessian = use_hessian
 
+    def get_output_subfolder(self) :
+        return f"use_hessian:{self._use_hessian}"
+
     def compute_influence_values(
         self, training_loader: PyTorchDataLoader, validation_loader: PyTorchDataLoader
     ):
