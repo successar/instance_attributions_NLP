@@ -37,7 +37,7 @@ local bert_type = std.extVar('BERT_MODEL_NAME');
       pretrained_model: bert_type,
     },
     regularizer: {
-      regexes: [["_classifier.*", {type : "l2", alpha: 0.1}]]
+      regexes: [[".*_classifier.*", {type : "l2", alpha: 0.01}]]
     }
   },
   data_loader : {
