@@ -65,6 +65,10 @@ class Representer_Points_With_Sec(BaseInfluencer):
 
         return outputs
 
+    @classmethod 
+    def run_all_configs(cls, predictor) :
+        yield cls(predictor)
+
     def train_with_lbfgs(self, training_loader):
         features = []
         logits = []

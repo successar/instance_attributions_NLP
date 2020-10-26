@@ -23,6 +23,12 @@ def get_predictor(args):
 
     return Predictor.from_archive(archive, predictor_name="base_predictor")
 
+def get_influencer_iterable(predictor, args) :
+    influencer = os.path.basename(args.influencer_file).split(".")[0]
+    influencer = BaseInfluencer.resolve_class_name(influencer)[0]
+
+    return influencer.run_all_configs(predictor)
+
 
 def get_influencer(predictor, args):
     params = Params.from_file(args.influencer_file)
@@ -30,11 +36,11 @@ def get_influencer(predictor, args):
     return influencer
 
 
-def dump_results(influence_values, training_idx, validation_idx, args):
-    os.makedirs(args.output_folder, exist_ok=True)
-    np.save(os.path.join(args.output_folder, "influence_values.npy"), influence_values)
-    json.dump(training_idx, open(os.path.join(args.output_folder, "training_idx.json"), "w"))
-    json.dump(validation_idx, open(os.path.join(args.output_folder, "validation_idx.json"), "w"))
+def dump_results(influence_values, training_idx, validation_idx, output_folder):
+    os.makedirs(output_folder, exist_ok=True)
+    np.save(os.path.join(output_folder, "influence_values.npy"), influence_values)
+    json.dump(training_idx, open(os.path.join(output_folder, "training_idx.json"), "w"))
+    json.dump(validation_idx, open(os.path.join(output_folder, "validation_idx.json"), "w"))
 
 
 def run(args):
@@ -56,19 +62,25 @@ def run(args):
     )
 
     print("Computing Influence Values")
-    influencer = get_influencer(predictor, args)
-    influence_values, training_idx, validation_idx = influencer.compute_influence_values(
-        training_loader, validation_loader
-    )
+    if args.run_all :
+        influencers = get_influencer_iterable(predictor, args)
+    else :
+        influencers = [get_influencer(predictor, args)]
+    
+    for influencer in influencers :
+        influence_values, training_idx, validation_idx = influencer.compute_influence_values(
+            training_loader, validation_loader
+        )
 
-    output_subfolder = influencer.get_output_subfolder().strip()
-    if len(output_subfolder) > 0:
-        args.output_folder = os.path.join(args.output_folder, output_subfolder)
+        output_folder = args.output_folder
+        output_subfolder = influencer.get_output_subfolder().strip()
+        if len(output_subfolder) > 0:
+            output_folder = os.path.join(output_folder, output_subfolder)
 
-    print(f"Dumping stuff to {args.output_folder}")
-    dump_results(influence_values, training_idx, validation_idx, args)
+        print(f"Dumping stuff to {output_folder}")
+        dump_results(influence_values, training_idx, validation_idx, output_folder)
 
-    print("Job done. Rejoice !")
+        print("Job done. Rejoice !")
 
 
 from argparse import ArgumentParser
@@ -82,6 +94,7 @@ parser.add_argument("--validation-file")
 parser.add_argument("--training-batch-size", type=int)
 parser.add_argument("--validation-batch-size", type=int)
 parser.add_argument("--output-folder")
+parser.add_argument("--run-all", action="store_true")
 
 if __name__ == "__main__":
     from allennlp.common.util import import_module_and_submodules

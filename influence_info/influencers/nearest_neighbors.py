@@ -25,6 +25,11 @@ class NearestNeighbors(BaseInfluencer):
     def get_output_subfolder(self) :
         return f"sim_func:{self._sim_func}"
 
+    @classmethod
+    def run_all_configs(cls, predictor) :
+        for sim_func in sim_func_dict :
+            yield cls(predictor, similarity_function=sim_func)
+
     def get_outputs_for_batch(self, batch):
         cuda_device = self._predictor.cuda_device
         model_input = util.move_to_device(batch, cuda_device)

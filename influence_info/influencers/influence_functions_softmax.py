@@ -49,6 +49,12 @@ class InfluenceFunctionExact(BaseInfluencer):
     def get_output_subfolder(self) :
         return f"use_hessian:{self._use_hessian},norm_grad:{self._normalise_grad}"
 
+    @classmethod
+    def run_all_configs(cls, predictor) :
+        for use_hessian in [True, False] :
+            for normalize_grad in [True, False] :
+                yield cls(predictor, use_hessian=use_hessian, normalize_grad=normalize_grad)
+
     def get_outputs_for_batch(self, batch):
         cuda_device = self._predictor.cuda_device
         model_input = util.move_to_device(batch, cuda_device)

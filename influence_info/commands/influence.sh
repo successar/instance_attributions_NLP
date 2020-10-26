@@ -15,4 +15,4 @@ python influence_info/influencers/compute_influence_values.py \
 --training-batch-size ${BSIZE:-8} \
 --validation-batch-size ${BSIZE:-8} \
 --influencer-file influence_info/influencer_config/$INFLUENCER.jsonnet \
---output-folder $OUTPUT_BASE_PATH/$INFLUENCER/;
+--output-folder $OUTPUT_BASE_PATH/$INFLUENCER/ --run-all;

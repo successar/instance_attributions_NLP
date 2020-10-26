@@ -1,4 +1,5 @@
 from allennlp.common.registrable import Registrable
+from typing import Iterable
 
 class BaseInfluencer(Registrable) :
     def __init__(self) :
@@ -9,3 +10,7 @@ class BaseInfluencer(Registrable) :
 
     def get_output_subfolder(self) :
         return ""
+
+    @classmethod
+    def run_all_configs(cls, predictor) -> Iterable:
+        raise NotImplementedError
