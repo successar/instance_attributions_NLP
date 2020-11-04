@@ -6,4 +6,4 @@ export TEST_DATA_PATH=${DATADIR:-Datasets}/${DATASET_NAME}/data/test.jsonl
 
 export OUTPUT_BASE_PATH=${OUTPUT_DIR:-outputs}/${DATASET_NAME}/${EXP_NAME}/${CLASSIFIER}
 
-bash influence_info/commands/base_evaluate.sh
+bash influence_info/commands/base_predict.sh

@@ -18,4 +18,4 @@ else
     allennlp train -s $OUTPUT_BASE_PATH --include-package influence_info --force $CONFIG_FILE
 fi
 
-bash influence_info/commands/base_evaluate.sh
+bash influence_info/commands/base_predict.sh
