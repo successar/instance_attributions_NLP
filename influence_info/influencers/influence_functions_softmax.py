@@ -37,7 +37,7 @@ class SuppModel:
 
 @BaseInfluencer.register("influence_function_softmax")
 class InfluenceFunctionExact(BaseInfluencer):
-    def __init__(self, predictor, use_hessian: bool=True, normalize_grad: bool=False):
+    def __init__(self, predictor, use_hessian: bool = True, normalize_grad: bool = False):
         self._predictor = predictor
         self._predictor._model.eval()
         self._predictor._model.requires_grad = False
@@ -46,13 +46,13 @@ class InfluenceFunctionExact(BaseInfluencer):
         self._use_hessian = use_hessian
         self._normalise_grad = normalize_grad
 
-    def get_output_subfolder(self) :
+    def get_output_subfolder(self):
         return f"use_hessian:{self._use_hessian},norm_grad:{self._normalise_grad}"
 
     @classmethod
-    def run_all_configs(cls, predictor) :
-        for use_hessian in [True, False] :
-            for normalize_grad in [True, False] :
+    def run_all_configs(cls, predictor):
+        for use_hessian in [True, False]:
+            for normalize_grad in [True, False]:
                 yield cls(predictor, use_hessian=use_hessian, normalize_grad=normalize_grad)
 
     def get_outputs_for_batch(self, batch):
@@ -101,9 +101,6 @@ class InfluenceFunctionExact(BaseInfluencer):
             validation_labels,
         ) = self.get_features_and_logits(validation_loader)
 
-        # hessian = self.get_pytorch_hessian(training_features, training_labels)
-        # breakpoint()
-
         fvals = training_features.sum(0) != 0.0
         training_features = training_features[:, fvals]
         validation_features = validation_features[:, fvals]
@@ -113,7 +110,7 @@ class InfluenceFunctionExact(BaseInfluencer):
 
         feature_size, label_size = training_features.shape[1], training_probs.shape[1]
 
-        if self._use_hessian :
+        if self._use_hessian:
             H = 0
             H_pred = torch.diag_embed(training_probs) - torch.bmm(
                 training_probs.unsqueeze(-1), training_probs.unsqueeze(1)
@@ -133,25 +130,31 @@ class InfluenceFunctionExact(BaseInfluencer):
                 H_inv = torch.inverse(H)
             except:
                 breakpoint()
-        else :
-            H_inv = torch.eye(feature_size*label_size).to(training_features.device)
+        else:
+            H_inv = torch.eye(feature_size * label_size).to(training_features.device)
 
         training_grad = (training_labels - training_probs).unsqueeze(1) * training_features.unsqueeze(-1)
-        training_grad = training_grad.reshape(training_grad.shape[0], -1) #(T, G)
+        training_grad = training_grad.reshape(training_grad.shape[0], -1)  # (T, G)
 
-        validation_grad = (validation_labels - validation_probs).unsqueeze(1) * validation_features.unsqueeze(
-            -1
-        )
-        validation_grad = validation_grad.reshape(validation_grad.shape[0], -1) #(D, G)
-            
-        influence_values = -validation_grad @ (training_grad @ H_inv).t() #(D, T)
+        influence_values_list = []
+        for i in range(validation_labels.shape[-1]) :
+            validation_labels = torch.zeros_like(validation_labels)
+            validation_labels[:, i] = 1.0
+            validation_grad = (validation_labels - validation_probs).unsqueeze(1) 
+            validation_grad = validation_grad * validation_features.unsqueeze(-1)
+            validation_grad = validation_grad.reshape(validation_grad.shape[0], -1)  # (D, G)
+            influence_values = -validation_grad @ (training_grad @ H_inv).t()  # (D, T)
 
-        if self._normalise_grad :
-            training_norm = norm(training_grad @ H_inv) #(T, 1)
-            validation_norm = norm(validation_grad @ H_inv) #(D, 1)
-            norm_matrix = validation_norm @ training_norm.t() #(D, T)
+            if self._normalise_grad:
+                training_norm = norm(training_grad @ H_inv)  # (T, 1)
+                validation_norm = norm(validation_grad @ H_inv)  # (D, 1)
+                norm_matrix = validation_norm @ training_norm.t()  # (D, T)
 
-            influence_values = influence_values / norm_matrix
+                influence_values = influence_values / norm_matrix
+
+            influence_values_list.append(influence_values.unsqueeze(-1))
+
+        influence_values = torch.cat(influence_values_list, dim=-1)
 
         return influence_values.cpu().data.numpy(), training_idx, validation_idx
 

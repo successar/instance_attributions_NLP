@@ -140,4 +140,5 @@ dmypy.json
 cython_debug/
 
 outputs/
-Datasets/
+Datasets/*
+!Datasets/SST
