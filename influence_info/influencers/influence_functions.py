@@ -1,4 +1,4 @@
-import re
+import re, os
 
 import numpy as np
 import torch
@@ -31,19 +31,28 @@ class InfluenceFunctions(BaseInfluencer):
         self._scale = 25
         self._use_hessian = use_hessian
 
-    def get_output_subfolder(self) :
+    def get_output_subfolder(self):
         return f"use_hessian:{self._use_hessian}"
+
+    @classmethod
+    def run_all_configs(cls, predictor) :
+        for use_hessian in [True, False] :
+            yield cls(predictor, os.environ["PARAM_REGEX"], use_hessian=use_hessian)
 
     def compute_influence_values(
         self, training_loader: PyTorchDataLoader, validation_loader: PyTorchDataLoader
     ):
+
+        training_loader = PyTorchDataLoader(training_loader.dataset, batch_size=1, shuffle=False)
+        validation_loader = PyTorchDataLoader(validation_loader.dataset, batch_size=1, shuffle=False)
+
         influence_values = []
         validation_idx = []
 
         for batch in tqdm(iter(validation_loader)):
             assert len(batch["metadata"]) == 1, breakpoint()
             influence_values.append([])
-            ihvp = self.ihvp(batch, training_loader)  # (tuple of params)
+            ihvp = self.ihvp(batch, training_loader)  # (tuple of params) # = H^-1 . Grad(L(z_test))
             validation_idx.append(batch["metadata"][0]["idx"])
 
             training_idx = []
@@ -51,7 +60,7 @@ class InfluenceFunctions(BaseInfluencer):
                 assert len(train_ex["metadata"]) == 1, breakpoint()
                 train_grad = self.get_grad(train_ex)
 
-                if_value = -sum((x * y).sum().item() for x, y in zip(ihvp, train_grad)) / len(training_loader)
+                if_value = sum((x * y).sum().item() for x, y in zip(ihvp, train_grad)) / len(training_loader)
                 influence_values[-1].append(if_value)
 
                 training_idx.append(train_ex["metadata"][0]["idx"])
@@ -71,6 +80,7 @@ class InfluenceFunctions(BaseInfluencer):
 
         return grads
 
+    # Compute the Inverse Hessian vector product
     def ihvp(self, test_example, training_loader):
         self._predictor._model.zero_grad()
         v = self.get_grad(test_example)
