@@ -143,7 +143,7 @@ class InfluenceFunctionExact(BaseInfluencer):
             validation_grad = (validation_labels - validation_probs).unsqueeze(1) 
             validation_grad = validation_grad * validation_features.unsqueeze(-1)
             validation_grad = validation_grad.reshape(validation_grad.shape[0], -1)  # (D, G)
-            influence_values = -validation_grad @ (training_grad @ H_inv).t()  # (D, T)
+            influence_values = validation_grad @ (training_grad @ H_inv).t()  # (D, T)
 
             if self._normalise_grad:
                 training_norm = norm(training_grad @ H_inv)  # (T, 1)
