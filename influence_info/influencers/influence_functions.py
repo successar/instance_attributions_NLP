@@ -17,7 +17,7 @@ class InfluenceFunctions(BaseInfluencer):
 
         print("Parameters requiring grad are : ")
         for name, p in self._predictor._model.named_parameters():
-            if re.search(param_regex, name) is None:
+            if re.search(param_regex, name) is None or "transformer_model.pooler" in name:
                 p.requires_grad = False
             else:
                 print(name)
@@ -36,7 +36,7 @@ class InfluenceFunctions(BaseInfluencer):
 
     @classmethod
     def run_all_configs(cls, predictor) :
-        for use_hessian in [True, False] :
+        for use_hessian in [False, True] :
             yield cls(predictor, os.environ["PARAM_REGEX"], use_hessian=use_hessian)
 
     def compute_influence_values(
@@ -56,7 +56,7 @@ class InfluenceFunctions(BaseInfluencer):
             validation_idx.append(batch["metadata"][0]["idx"])
 
             training_idx = []
-            for train_ex in iter(training_loader):
+            for train_ex in tqdm(iter(training_loader)):
                 assert len(train_ex["metadata"]) == 1, breakpoint()
                 train_grad = self.get_grad(train_ex)
 
@@ -92,7 +92,7 @@ class InfluenceFunctions(BaseInfluencer):
 
         training_loader = PyTorchDataLoader(training_loader.dataset, batch_size=5, shuffle=True)
         training_iter = iter(training_loader)
-        for _ in range(len(training_loader)):
+        for _ in tqdm(range(len(training_loader))):
             train_batch = next(training_iter)
 
             self._predictor._model.zero_grad()

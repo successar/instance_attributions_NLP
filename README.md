@@ -66,7 +66,19 @@ The code is stored in the `influence_info` dir. The structure is as follows :
     3. validation_idx.json - Maps the index of each element in the first dimension above to idx field in validation data file.
 
 
-
+6. To run the influence function (complete), use 
+    ```bash
+    BSIZE=1 \
+    EXP_NAME=<your-experiment-name> \
+    DATASET_NAME=SST \
+    DATADIR=Datasets \
+    CUDA_DEVICE=0 \
+    OUTPUT_DIR=outputs \
+    CLASSIFIER=transformer_text_classifier \
+    INFLUENCER=influence_function \
+    PARAM_REGEX=".*" \
+    bash influence_info/commands/influence.sh
+    ```
 
 
 
