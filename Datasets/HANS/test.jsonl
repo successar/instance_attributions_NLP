@@ -1,0 +1,1000 @@
+{"query": "The actor recognized the senator .", "document": "The actor recognized the senator in front of the authors .", "idx": "test_0", "label": 1}
+{"query": "The actor saw the senators .", "document": "Because the actor saw the senators , the lawyers waited .", "idx": "test_1", "label": 1}
+{"query": "The athletes saw the scientist .", "document": "After the athletes saw the scientist , the tourists contacted the bankers .", "idx": "test_2", "label": 1}
+{"query": "The banker advised the author .", "document": "The banker advised the author that encouraged the judges .", "idx": "test_3", "label": 1}
+{"query": "The lawyers danced .", "document": "After the lawyers danced , the author saw the judges .", "idx": "test_4", "label": 1}
+{"query": "The banker avoided the secretaries .", "document": "While the banker avoided the secretaries , the student resigned .", "idx": "test_5", "label": 1}
+{"query": "The banker contacted the judge .", "document": "Hopefully the banker contacted the judge .", "idx": "test_6", "label": 0}
+{"query": "The tourist believed the lawyer .", "document": "The lawyer and the tourist believed the artist .", "idx": "test_7", "label": 0}
+{"query": "The presidents ran .", "document": "If the presidents ran , the senators recommended the author .", "idx": "test_8", "label": 0}
+{"query": "The actors danced .", "document": "The doctors that advised the actors danced .", "idx": "test_9", "label": 0}
+{"query": "The tourists avoided the students .", "document": "The students avoided the manager in front of the tourists .", "idx": "test_10", "label": 0}
+{"query": "The judges stopped the artists .", "document": "Because the bankers thanked the secretary , the judges stopped the artists .", "idx": "test_11", "label": 1}
+{"query": "The artist helped the scientist .", "document": "After the artist helped the scientist , the author mentioned the students .", "idx": "test_12", "label": 1}
+{"query": "The lawyer wrote .", "document": "The lawyer wrote the letter .", "idx": "test_13", "label": 1}
+{"query": "The bankers arrived .", "document": "Unless the tourist saw the professor , the bankers arrived .", "idx": "test_14", "label": 0}
+{"query": "The tourists resigned .", "document": "Certainly the tourists resigned .", "idx": "test_15", "label": 1}
+{"query": "The senator encouraged the president .", "document": "After the senator encouraged the president , the student danced .", "idx": "test_16", "label": 1}
+{"query": "The doctor recognized the actor .", "document": "The doctor recognized the actor next to the professors .", "idx": "test_17", "label": 1}
+{"query": "The authors encouraged the artists .", "document": "Unless the authors encouraged the artists , the bankers helped the lawyers .", "idx": "test_18", "label": 0}
+{"query": "The authors investigated in the school .", "document": "The authors investigated in the school stopped the judge .", "idx": "test_19", "label": 0}
+{"query": "The scientists recommended the bankers .", "document": "Supposedly the scientists recommended the bankers .", "idx": "test_20", "label": 0}
+{"query": "The author encouraged the secretary .", "document": "The author encouraged the athlete and the secretary .", "idx": "test_21", "label": 1}
+{"query": "The judge called the artists .", "document": "The judge who arrived called the artists .", "idx": "test_22", "label": 1}
+{"query": "The doctors advised the secretaries .", "document": "In case the actor arrived , the doctors advised the secretaries .", "idx": "test_23", "label": 1}
+{"query": "The actors resigned .", "document": "In case the actors resigned , the tourist arrived .", "idx": "test_24", "label": 0}
+{"query": "The author admired the students .", "document": "Unless the author admired the students , the president stopped the athletes .", "idx": "test_25", "label": 0}
+{"query": "The tourists supported the judges .", "document": "The judges by the tourists supported the scientist .", "idx": "test_26", "label": 0}
+{"query": "The secretaries presented in the office .", "document": "The secretaries presented in the office recognized the students .", "idx": "test_27", "label": 0}
+{"query": "The artist mentioned the managers .", "document": "The artist by the president mentioned the managers .", "idx": "test_28", "label": 1}
+{"query": "Judges supported the doctor .", "document": "Popular judges supported the doctor .", "idx": "test_29", "label": 1}
+{"query": "Senators encouraged the actor .", "document": "Young senators encouraged the actor .", "idx": "test_30", "label": 1}
+{"query": "The scientists contacted the presidents .", "document": "The actors believed that the scientists contacted the presidents .", "idx": "test_31", "label": 0}
+{"query": "Judges saw the doctors .", "document": "Popular judges saw the doctors .", "idx": "test_32", "label": 1}
+{"query": "The lawyer saw the author .", "document": "The manager saw the lawyer who the author believed .", "idx": "test_33", "label": 0}
+{"query": "The president believed the students .", "document": "The lawyers believed the president and the students .", "idx": "test_34", "label": 0}
+{"query": "The professors helped the secretaries .", "document": "The secretaries helped the banker in front of the professors .", "idx": "test_35", "label": 0}
+{"query": "The president won .", "document": "The president won the war .", "idx": "test_36", "label": 1}
+{"query": "The manager believed the author .", "document": "The manager that shouted believed the author .", "idx": "test_37", "label": 1}
+{"query": "The authors wrote .", "document": "The authors wrote the book .", "idx": "test_38", "label": 1}
+{"query": "The professors helped the student .", "document": "Although the actors recognized the author , the professors helped the student .", "idx": "test_39", "label": 1}
+{"query": "The president encouraged the artists .", "document": "Because the senator believed the professors , the president encouraged the artists .", "idx": "test_40", "label": 1}
+{"query": "The senator advised the artist .", "document": "The senator that mentioned the manager advised the artist .", "idx": "test_41", "label": 1}
+{"query": "The president hid the professor .", "document": "Before the president hid the professor shouted .", "idx": "test_42", "label": 0}
+{"query": "The professors recognized the tourists .", "document": "The professors were recognized by the tourists .", "idx": "test_43", "label": 0}
+{"query": "The bankers mentioned the student .", "document": "The judge that the student recognized mentioned the bankers .", "idx": "test_44", "label": 0}
+{"query": "The actors waited .", "document": "Of course the actors waited .", "idx": "test_45", "label": 1}
+{"query": "The senator recommended the tourist .", "document": "The judges in front of the senator recommended the tourist .", "idx": "test_46", "label": 0}
+{"query": "The professors wrote .", "document": "The professors wrote the novel .", "idx": "test_47", "label": 1}
+{"query": "The presidents admired the lawyer .", "document": "The author who mentioned the presidents admired the lawyer .", "idx": "test_48", "label": 0}
+{"query": "The senators mentioned the professors .", "document": "The professors by the senators mentioned the manager .", "idx": "test_49", "label": 0}
+{"query": "The banker supported the scientist .", "document": "The banker and the scientist supported the professor .", "idx": "test_50", "label": 0}
+{"query": "The manager encouraged the athlete .", "document": "The secretary who saw the manager encouraged the athlete .", "idx": "test_51", "label": 0}
+{"query": "The tourist helped the professors .", "document": "The authors remembered that the tourist helped the professors .", "idx": "test_52", "label": 1}
+{"query": "The athletes helped the scientists .", "document": "The athletes helped the scientists , and the senators danced .", "idx": "test_53", "label": 1}
+{"query": "The secretaries introduced the tourist .", "document": "Hopefully the secretaries introduced the tourist .", "idx": "test_54", "label": 0}
+{"query": "The athletes saw the artists .", "document": "The athletes saw the artists that shouted .", "idx": "test_55", "label": 1}
+{"query": "The artists introduced the manager .", "document": "The manager introduced the artists that the judge avoided .", "idx": "test_56", "label": 0}
+{"query": "The banker shouted .", "document": "If the senator slept , the banker shouted .", "idx": "test_57", "label": 0}
+{"query": "The judges stopped the professors .", "document": "While the judges stopped the professors ran .", "idx": "test_58", "label": 0}
+{"query": "The judge admired the president .", "document": "The president who called the judge admired the student .", "idx": "test_59", "label": 0}
+{"query": "The artists mentioned the athlete .", "document": "The president performed , or the artists mentioned the athlete .", "idx": "test_60", "label": 0}
+{"query": "The judges helped the professor .", "document": "The professor was helped by the judges .", "idx": "test_61", "label": 1}
+{"query": "The student thanked the president .", "document": "The scientist saw the student that thanked the president .", "idx": "test_62", "label": 1}
+{"query": "The scientist recognized the student .", "document": "The student was recognized by the scientist .", "idx": "test_63", "label": 1}
+{"query": "The professor saw the author .", "document": "The tourist saw the professor and the author .", "idx": "test_64", "label": 0}
+{"query": "The athlete studied in the laboratory .", "document": "The athlete studied in the laboratory believed the managers .", "idx": "test_65", "label": 0}
+{"query": "The actors encouraged the secretary .", "document": "The actors that slept encouraged the secretary .", "idx": "test_66", "label": 1}
+{"query": "The student helped the managers .", "document": "The managers helped the student .", "idx": "test_67", "label": 0}
+{"query": "The tourists helped the lawyer .", "document": "Certainly the tourists helped the lawyer .", "idx": "test_68", "label": 1}
+{"query": "The scientists shouted .", "document": "The artists forgot that the scientists shouted .", "idx": "test_69", "label": 1}
+{"query": "The judges called the tourist .", "document": "Probably the judges called the tourist .", "idx": "test_70", "label": 0}
+{"query": "The judges avoided the senator .", "document": "The doctors assumed that the judges avoided the senator .", "idx": "test_71", "label": 0}
+{"query": "The secretary mentioned the judge .", "document": "The secretary mentioned the professor and the judge .", "idx": "test_72", "label": 1}
+{"query": "The doctors recommended the athlete .", "document": "The doctors recommended the athlete that ran .", "idx": "test_73", "label": 1}
+{"query": "The author recognized the secretaries .", "document": "While the author recognized the secretaries , the athletes introduced the actors .", "idx": "test_74", "label": 1}
+{"query": "The president encouraged the athlete .", "document": "The president encouraged the athlete and the artists .", "idx": "test_75", "label": 1}
+{"query": "The doctor introduced the senator .", "document": "Before the doctor introduced the senator , the tourists danced .", "idx": "test_76", "label": 1}
+{"query": "The lawyers recognized the athlete .", "document": "The lawyers who recognized the athlete supported the doctor .", "idx": "test_77", "label": 1}
+{"query": "The artist recommended the scientists .", "document": "The scientists recommended the senators by the artist .", "idx": "test_78", "label": 0}
+{"query": "The professors danced .", "document": "The authors avoided the managers , and the professors danced .", "idx": "test_79", "label": 1}
+{"query": "The actor danced .", "document": "Probably the actor danced .", "idx": "test_80", "label": 0}
+{"query": "The secretaries advised the judge .", "document": "The judge was advised by the secretaries .", "idx": "test_81", "label": 1}
+{"query": "The student helped the doctors .", "document": "The doctors were helped by the student .", "idx": "test_82", "label": 1}
+{"query": "The secretary introduced the manager .", "document": "The secretary introduced the manager who the bankers helped .", "idx": "test_83", "label": 1}
+{"query": "The secretary admired the banker .", "document": "The judge admired the secretary who the banker believed .", "idx": "test_84", "label": 0}
+{"query": "The students helped the judge .", "document": "The banker helped the students by the judge .", "idx": "test_85", "label": 0}
+{"query": "The president investigated in the laboratory .", "document": "The artist encouraged the president investigated in the laboratory .", "idx": "test_86", "label": 0}
+{"query": "The president believed the athletes .", "document": "The president believed the athletes contacted the secretary .", "idx": "test_87", "label": 0}
+{"query": "The judges supported the doctor .", "document": "The actors mentioned the doctor who the judges supported .", "idx": "test_88", "label": 1}
+{"query": "The bankers saw the lawyer .", "document": "The tourists contacted the athlete , or the bankers saw the lawyer .", "idx": "test_89", "label": 0}
+{"query": "The tourists encouraged the banker .", "document": "The banker encouraged the tourists by the scientists .", "idx": "test_90", "label": 0}
+{"query": "The lawyer recognized the tourists .", "document": "The lawyer near the actor recognized the tourists .", "idx": "test_91", "label": 1}
+{"query": "The artists mentioned the lawyer .", "document": "The tourists and the artists mentioned the lawyer .", "idx": "test_92", "label": 1}
+{"query": "The doctors shouted .", "document": "Whether or not the doctors shouted , the senators performed .", "idx": "test_93", "label": 0}
+{"query": "The professor introduced the artist .", "document": "The professor introduced the artist and the athlete .", "idx": "test_94", "label": 1}
+{"query": "The presidents saw the students .", "document": "The lawyer that advised the presidents saw the students .", "idx": "test_95", "label": 0}
+{"query": "The artist helped the authors .", "document": "The artist helped the authors behind the banker .", "idx": "test_96", "label": 1}
+{"query": "The senators recommended the presidents .", "document": "The senators recommended the presidents and the author .", "idx": "test_97", "label": 1}
+{"query": "The lawyer helped the president .", "document": "The lawyer behind the manager helped the president .", "idx": "test_98", "label": 1}
+{"query": "The doctor encouraged the artist .", "document": "Unless the professor contacted the manager , the doctor encouraged the artist .", "idx": "test_99", "label": 0}
+{"query": "The scientists encouraged the tourists .", "document": "The scientists that arrived encouraged the tourists .", "idx": "test_100", "label": 1}
+{"query": "The secretary called the scientist .", "document": "The secretary that called the scientist admired the artist .", "idx": "test_101", "label": 1}
+{"query": "The banker introduced the lawyer .", "document": "The banker introduced the lawyer , and the author recognized the doctor .", "idx": "test_102", "label": 1}
+{"query": "The manager avoided the doctors .", "document": "The manager and the students avoided the doctors .", "idx": "test_103", "label": 1}
+{"query": "The authors contacted the student .", "document": "The judge behind the authors contacted the student .", "idx": "test_104", "label": 0}
+{"query": "The actors danced .", "document": "The actors danced , and the lawyers thanked the presidents .", "idx": "test_105", "label": 1}
+{"query": "The banker recognized the presidents .", "document": "The banker recognized the presidents and the student .", "idx": "test_106", "label": 1}
+{"query": "The doctor shouted .", "document": "The doctor shouted , and the bankers believed the tourist .", "idx": "test_107", "label": 1}
+{"query": "The scientists paid the actors .", "document": "Before the scientists paid the actors ran .", "idx": "test_108", "label": 0}
+{"query": "The lawyer admired the student .", "document": "The doctor and the lawyer admired the student .", "idx": "test_109", "label": 1}
+{"query": "The presidents introduced the secretaries .", "document": "The secretaries introduced the presidents .", "idx": "test_110", "label": 0}
+{"query": "The athlete performed .", "document": "The athlete performed , and the students believed the president .", "idx": "test_111", "label": 1}
+{"query": "The judges shouted .", "document": "Unless the actor stopped the managers , the judges shouted .", "idx": "test_112", "label": 0}
+{"query": "The banker avoided the professors .", "document": "The professors that the banker avoided contacted the lawyers .", "idx": "test_113", "label": 1}
+{"query": "The manager ran .", "document": "Hopefully the manager ran .", "idx": "test_114", "label": 0}
+{"query": "The athlete paid in the office .", "document": "The secretaries supported the athlete paid in the office .", "idx": "test_115", "label": 0}
+{"query": "The scientists won .", "document": "The scientists won the contest .", "idx": "test_116", "label": 1}
+{"query": "The senators recommended the managers .", "document": "The senators recommended the managers and the actor .", "idx": "test_117", "label": 1}
+{"query": "The doctor saw the lawyers .", "document": "The artist who contacted the doctor saw the lawyers .", "idx": "test_118", "label": 0}
+{"query": "The senator avoided the actors .", "document": "After the senator avoided the actors , the athlete thanked the banker .", "idx": "test_119", "label": 1}
+{"query": "The judges avoided the scientists .", "document": "Probably the judges avoided the scientists .", "idx": "test_120", "label": 0}
+{"query": "The bankers performed .", "document": "The professor next to the bankers performed .", "idx": "test_121", "label": 0}
+{"query": "The bankers heard the athlete .", "document": "The bankers heard the athlete performed .", "idx": "test_122", "label": 0}
+{"query": "The students stopped the bankers .", "document": "The bankers stopped the students .", "idx": "test_123", "label": 0}
+{"query": "The scientist recognized the artist .", "document": "In case the scientist recognized the artist , the tourist admired the managers .", "idx": "test_124", "label": 0}
+{"query": "The artist called the bankers .", "document": "The bankers who encouraged the artist called the lawyers .", "idx": "test_125", "label": 0}
+{"query": "The authors admired the student .", "document": "The artist avoided the secretary , or the authors admired the student .", "idx": "test_126", "label": 0}
+{"query": "The tourist avoided the secretaries .", "document": "The tourist who called the judges avoided the secretaries .", "idx": "test_127", "label": 1}
+{"query": "The artists mentioned the student .", "document": "If the artists mentioned the student , the senators recognized the authors .", "idx": "test_128", "label": 0}
+{"query": "The secretaries helped the doctors .", "document": "The secretaries helped the doctors who saw the professors .", "idx": "test_129", "label": 1}
+{"query": "The authors admired the doctors .", "document": "The authors behind the bankers admired the doctors .", "idx": "test_130", "label": 1}
+{"query": "The doctors supported the judges .", "document": "Before the doctors supported the judges , the tourist admired the banker .", "idx": "test_131", "label": 1}
+{"query": "The authors fought the student .", "document": "Before the authors fought the student shouted .", "idx": "test_132", "label": 0}
+{"query": "The scientists encouraged the artist .", "document": "The president supported the artist who the scientists encouraged .", "idx": "test_133", "label": 1}
+{"query": "The judge stopped the actors .", "document": "The president forgot that the judge stopped the actors .", "idx": "test_134", "label": 1}
+{"query": "The athletes recognized the secretary .", "document": "Unless the athletes recognized the secretary , the judges stopped the manager .", "idx": "test_135", "label": 0}
+{"query": "The president performed .", "document": "Certainly the president performed .", "idx": "test_136", "label": 1}
+{"query": "The lawyers helped the manager .", "document": "The judge that the manager advised helped the lawyers .", "idx": "test_137", "label": 0}
+{"query": "The students thanked the actor .", "document": "The students thanked the actor next to the tourist .", "idx": "test_138", "label": 1}
+{"query": "The actors recognized the student .", "document": "Unless the professor resigned , the actors recognized the student .", "idx": "test_139", "label": 0}
+{"query": "The students knew the tourists .", "document": "The students knew the tourists helped the secretaries .", "idx": "test_140", "label": 0}
+{"query": "The professor helped the athletes .", "document": "The president introduced the athletes who the professor helped .", "idx": "test_141", "label": 1}
+{"query": "The tourist avoided the scientists .", "document": "The tourist avoided the scientists in front of the artist .", "idx": "test_142", "label": 1}
+{"query": "The president recommended the scientist .", "document": "While the president recommended the scientist , the doctors thanked the tourist .", "idx": "test_143", "label": 1}
+{"query": "The student paid .", "document": "The student paid the secretary .", "idx": "test_144", "label": 1}
+{"query": "The doctor mentioned the scientist .", "document": "The lawyers next to the doctor mentioned the scientist .", "idx": "test_145", "label": 0}
+{"query": "The professor believed the author .", "document": "The professor believed the author shouted .", "idx": "test_146", "label": 0}
+{"query": "Lawyers resigned .", "document": "Young lawyers resigned .", "idx": "test_147", "label": 1}
+{"query": "The judges stopped the artist .", "document": "Although the judges stopped the artist ran .", "idx": "test_148", "label": 0}
+{"query": "The lawyers helped the doctor .", "document": "The lawyers were helped by the doctor .", "idx": "test_149", "label": 0}
+{"query": "The artist thanked the managers .", "document": "The artist thanked the managers that the senators advised .", "idx": "test_150", "label": 1}
+{"query": "The athletes encouraged the artists .", "document": "The athletes were encouraged by the artists .", "idx": "test_151", "label": 0}
+{"query": "The senator contacted the athletes .", "document": "Unless the lawyer admired the presidents , the senator contacted the athletes .", "idx": "test_152", "label": 0}
+{"query": "The judge supported the senator .", "document": "The senator was supported by the judge .", "idx": "test_153", "label": 1}
+{"query": "The judges mentioned the bankers .", "document": "The bankers behind the judges mentioned the senator .", "idx": "test_154", "label": 0}
+{"query": "The lawyers arrived .", "document": "The actors remembered that the lawyers arrived .", "idx": "test_155", "label": 1}
+{"query": "The authors waited .", "document": "Definitely the authors waited .", "idx": "test_156", "label": 1}
+{"query": "The lawyers mentioned the president .", "document": "The president was mentioned by the lawyers .", "idx": "test_157", "label": 1}
+{"query": "The athlete advised the tourist .", "document": "The athlete advised the tourist who ran .", "idx": "test_158", "label": 1}
+{"query": "The president introduced the manager .", "document": "The bankers saw the scientist , or the president introduced the manager .", "idx": "test_159", "label": 0}
+{"query": "The president contacted the actors .", "document": "The president and the athletes contacted the actors .", "idx": "test_160", "label": 1}
+{"query": "The athlete shouted .", "document": "The senator and the athlete shouted .", "idx": "test_161", "label": 1}
+{"query": "The artists fought the actors .", "document": "While the artists fought the actors slept .", "idx": "test_162", "label": 0}
+{"query": "The actors encouraged the student .", "document": "Unless the actors encouraged the student , the scientists introduced the secretaries .", "idx": "test_163", "label": 0}
+{"query": "The professor supported the lawyer .", "document": "Definitely the professor supported the lawyer .", "idx": "test_164", "label": 1}
+{"query": "The president saw the doctors .", "document": "The judges helped the president that saw the doctors .", "idx": "test_165", "label": 1}
+{"query": "The banker encouraged the professors .", "document": "The athlete that called the banker encouraged the professors .", "idx": "test_166", "label": 0}
+{"query": "The judges introduced the senators .", "document": "The senators and the judges introduced the doctors .", "idx": "test_167", "label": 0}
+{"query": "The professor saw the tourist .", "document": "The professor saw the doctors and the tourist .", "idx": "test_168", "label": 1}
+{"query": "The professors advised the judge .", "document": "If the secretary shouted , the professors advised the judge .", "idx": "test_169", "label": 0}
+{"query": "The doctor waited .", "document": "The scientists knew that the doctor waited .", "idx": "test_170", "label": 1}
+{"query": "The athlete encouraged the artist .", "document": "Supposedly the athlete encouraged the artist .", "idx": "test_171", "label": 0}
+{"query": "The doctor thanked the athlete .", "document": "After the author performed , the doctor thanked the athlete .", "idx": "test_172", "label": 1}
+{"query": "The president heard the professor .", "document": "The president heard the professor resigned .", "idx": "test_173", "label": 0}
+{"query": "The students presented the professor .", "document": "After the students presented the professor danced .", "idx": "test_174", "label": 0}
+{"query": "The secretaries believed the doctors .", "document": "The secretaries believed the doctors in front of the lawyer .", "idx": "test_175", "label": 1}
+{"query": "The judges stopped the lawyers .", "document": "The lawyers were stopped by the judges .", "idx": "test_176", "label": 1}
+{"query": "The authors knew the actor .", "document": "The authors knew the actor called the tourist .", "idx": "test_177", "label": 0}
+{"query": "The artist believed the doctors .", "document": "Obviously the artist believed the doctors .", "idx": "test_178", "label": 1}
+{"query": "Managers resigned .", "document": "Famous managers resigned .", "idx": "test_179", "label": 1}
+{"query": "The scientist stopped the student .", "document": "In case the scientist stopped the student , the lawyer arrived .", "idx": "test_180", "label": 0}
+{"query": "The artist presented in the office .", "document": "The artist presented in the office resigned .", "idx": "test_181", "label": 0}
+{"query": "The athlete contacted the tourists .", "document": "The athlete that contacted the tourists mentioned the actors .", "idx": "test_182", "label": 1}
+{"query": "The lawyers contacted the managers .", "document": "Certainly the lawyers contacted the managers .", "idx": "test_183", "label": 1}
+{"query": "The athlete recommended the authors .", "document": "The artists who called the athlete recommended the authors .", "idx": "test_184", "label": 0}
+{"query": "The artists stopped the manager .", "document": "The artists were stopped by the manager .", "idx": "test_185", "label": 0}
+{"query": "The manager avoided the athlete .", "document": "The manager was avoided by the athlete .", "idx": "test_186", "label": 0}
+{"query": "The artists danced .", "document": "If the secretary recognized the president , the artists danced .", "idx": "test_187", "label": 0}
+{"query": "Bankers introduced the secretary .", "document": "Angry bankers introduced the secretary .", "idx": "test_188", "label": 1}
+{"query": "The judge ran .", "document": "In case the judge ran , the tourists recommended the managers .", "idx": "test_189", "label": 0}
+{"query": "The scientists recommended the actor .", "document": "The scientists recommended the actor that the judges saw .", "idx": "test_190", "label": 1}
+{"query": "The professors slept .", "document": "The senators helped the manager , or the professors slept .", "idx": "test_191", "label": 0}
+{"query": "The tourists stopped the managers .", "document": "The lawyers in front of the tourists stopped the managers .", "idx": "test_192", "label": 0}
+{"query": "The managers thanked the judge .", "document": "The managers thanked the doctor and the judge .", "idx": "test_193", "label": 1}
+{"query": "The scientist admired the lawyer .", "document": "The lawyer admired the scientist behind the tourists .", "idx": "test_194", "label": 0}
+{"query": "The president knew the senators .", "document": "The president knew the senators advised the doctor .", "idx": "test_195", "label": 0}
+{"query": "The presidents advised the doctor .", "document": "Suddenly the presidents advised the doctor .", "idx": "test_196", "label": 1}
+{"query": "The lawyers avoided the actors .", "document": "The lawyers avoided the actors who thanked the secretaries .", "idx": "test_197", "label": 1}
+{"query": "The doctors called the secretaries .", "document": "Whether or not the doctors called the secretaries , the presidents slept .", "idx": "test_198", "label": 0}
+{"query": "Bankers called the manager .", "document": "Famous bankers called the manager .", "idx": "test_199", "label": 1}
+{"query": "The actor encouraged the secretary .", "document": "The actor encouraged the secretary that danced .", "idx": "test_200", "label": 1}
+{"query": "The artists avoided the tourist .", "document": "Clearly the artists avoided the tourist .", "idx": "test_201", "label": 1}
+{"query": "Senators recommended the lawyers .", "document": "Popular senators recommended the lawyers .", "idx": "test_202", "label": 1}
+{"query": "The tourists saw the managers .", "document": "The artists saw the tourists in front of the managers .", "idx": "test_203", "label": 0}
+{"query": "The tourists knew the students .", "document": "The tourists knew the students performed .", "idx": "test_204", "label": 0}
+{"query": "The bankers paid in the laboratory .", "document": "The bankers paid in the laboratory called the scientists .", "idx": "test_205", "label": 0}
+{"query": "The students stopped the scientists .", "document": "Because the students stopped the scientists introduced the manager .", "idx": "test_206", "label": 0}
+{"query": "The artists helped the secretary .", "document": "The author near the secretary helped the artists .", "idx": "test_207", "label": 0}
+{"query": "The lawyer knew the authors .", "document": "The lawyer knew the authors ran .", "idx": "test_208", "label": 0}
+{"query": "The author believed the scientists .", "document": "The author believed the scientists stopped the tourists .", "idx": "test_209", "label": 0}
+{"query": "The students encouraged the doctors .", "document": "The senator forgot that the students encouraged the doctors .", "idx": "test_210", "label": 1}
+{"query": "The manager recognized the senator .", "document": "The manager and the banker recognized the senator .", "idx": "test_211", "label": 1}
+{"query": "The athletes stopped the judge .", "document": "The athletes stopped the judge who the managers contacted .", "idx": "test_212", "label": 1}
+{"query": "The doctors advised the bankers .", "document": "The doctors advised the bankers in front of the judges .", "idx": "test_213", "label": 1}
+{"query": "The tourists encouraged the actors .", "document": "The actors near the bankers encouraged the tourists .", "idx": "test_214", "label": 0}
+{"query": "Lawyers slept .", "document": "Important lawyers slept .", "idx": "test_215", "label": 1}
+{"query": "The professor believed the artist .", "document": "The artist was believed by the professor .", "idx": "test_216", "label": 1}
+{"query": "The artist saw the senator .", "document": "The artist saw the senator behind the manager .", "idx": "test_217", "label": 1}
+{"query": "The secretaries helped the athletes .", "document": "The athletes helped the professor that the secretaries believed .", "idx": "test_218", "label": 0}
+{"query": "The artists hid the managers .", "document": "Although the artists hid the managers recognized the senator .", "idx": "test_219", "label": 0}
+{"query": "The bankers encouraged the professor .", "document": "The bankers next to the president encouraged the professor .", "idx": "test_220", "label": 1}
+{"query": "The secretaries saw the bankers .", "document": "The secretaries next to the senator saw the bankers .", "idx": "test_221", "label": 1}
+{"query": "The doctors admired the manager .", "document": "Probably the doctors admired the manager .", "idx": "test_222", "label": 0}
+{"query": "The senators avoided the artist .", "document": "The artist avoided the senators .", "idx": "test_223", "label": 0}
+{"query": "The banker introduced the artists .", "document": "The banker that introduced the artists stopped the manager .", "idx": "test_224", "label": 1}
+{"query": "The secretary slept .", "document": "Suddenly the secretary slept .", "idx": "test_225", "label": 1}
+{"query": "The lawyer introduced the judges .", "document": "The athletes introduced the lawyer and the judges .", "idx": "test_226", "label": 0}
+{"query": "The banker helped in the laboratory .", "document": "The banker helped in the laboratory supported the doctor .", "idx": "test_227", "label": 0}
+{"query": "The authors slept .", "document": "If the authors slept , the students shouted .", "idx": "test_228", "label": 0}
+{"query": "The president introduced the secretaries .", "document": "After the president introduced the secretaries , the senator waited .", "idx": "test_229", "label": 1}
+{"query": "The lawyers believed the professor .", "document": "Maybe the lawyers believed the professor .", "idx": "test_230", "label": 0}
+{"query": "The student danced .", "document": "The presidents helped the secretaries , and the student danced .", "idx": "test_231", "label": 1}
+{"query": "The actors shouted .", "document": "In case the president slept , the actors shouted .", "idx": "test_232", "label": 1}
+{"query": "The professor contacted the judge .", "document": "The judge contacted the professor .", "idx": "test_233", "label": 0}
+{"query": "The author called the artists .", "document": "The author next to the secretaries called the artists .", "idx": "test_234", "label": 1}
+{"query": "The tourist recommended the lawyer .", "document": "Certainly the tourist recommended the lawyer .", "idx": "test_235", "label": 1}
+{"query": "The lawyers encouraged the managers .", "document": "Whether or not the lawyers encouraged the managers , the judges shouted .", "idx": "test_236", "label": 0}
+{"query": "The professors ran .", "document": "The actor forgot that the professors ran .", "idx": "test_237", "label": 1}
+{"query": "The authors mentioned the lawyers .", "document": "The doctors said that the authors mentioned the lawyers .", "idx": "test_238", "label": 0}
+{"query": "The actor contacted the tourist .", "document": "The presidents contacted the actor in front of the tourist .", "idx": "test_239", "label": 0}
+{"query": "The authors introduced the artists .", "document": "The authors in front of the scientists introduced the artists .", "idx": "test_240", "label": 1}
+{"query": "The manager supported the student .", "document": "The tourists supported the manager and the student .", "idx": "test_241", "label": 0}
+{"query": "The authors waited .", "document": "Whether or not the president advised the artists , the authors waited .", "idx": "test_242", "label": 1}
+{"query": "The athlete introduced the tourist .", "document": "The tourist and the athlete introduced the scientist .", "idx": "test_243", "label": 0}
+{"query": "The lawyer arrived .", "document": "The senators hoped that the lawyer arrived .", "idx": "test_244", "label": 0}
+{"query": "The presidents thanked the actor .", "document": "The managers and the presidents thanked the actor .", "idx": "test_245", "label": 1}
+{"query": "The president mentioned the secretaries .", "document": "The professors behind the president mentioned the secretaries .", "idx": "test_246", "label": 0}
+{"query": "The artist recognized the managers .", "document": "The doctors recognized the managers and the artist .", "idx": "test_247", "label": 0}
+{"query": "The scientist paid .", "document": "The scientist paid the doctor .", "idx": "test_248", "label": 1}
+{"query": "The artist encouraged the tourists .", "document": "Hopefully the artist encouraged the tourists .", "idx": "test_249", "label": 0}
+{"query": "The author supported the athlete .", "document": "The athlete supported the author who the student recommended .", "idx": "test_250", "label": 0}
+{"query": "The senators arrived .", "document": "The senators arrived , and the judge introduced the author .", "idx": "test_251", "label": 1}
+{"query": "The presidents encouraged the professor .", "document": "The presidents encouraged the professor , and the judges danced .", "idx": "test_252", "label": 1}
+{"query": "The presidents recommended the actors .", "document": "The presidents behind the tourists recommended the actors .", "idx": "test_253", "label": 1}
+{"query": "The doctor advised the president .", "document": "The doctor advised the president , and the scientist believed the artist .", "idx": "test_254", "label": 1}
+{"query": "The secretary supported the president .", "document": "The secretary supported the president , and the judges arrived .", "idx": "test_255", "label": 1}
+{"query": "The lawyers saw the judges .", "document": "The judges saw the lawyers .", "idx": "test_256", "label": 0}
+{"query": "The doctor believed the athletes .", "document": "The doctor believed the athletes performed .", "idx": "test_257", "label": 0}
+{"query": "The scientists recognized the senators .", "document": "The scientists recognized the tourist and the senators .", "idx": "test_258", "label": 1}
+{"query": "The actor contacted the artists .", "document": "Maybe the actor contacted the artists .", "idx": "test_259", "label": 0}
+{"query": "The author knew the student .", "document": "The author knew the student waited .", "idx": "test_260", "label": 0}
+{"query": "The scientist ran .", "document": "The presidents who stopped the scientist ran .", "idx": "test_261", "label": 0}
+{"query": "The authors admired the artists .", "document": "The authors admired the artists who waited .", "idx": "test_262", "label": 1}
+{"query": "The lawyer advised the professors .", "document": "The lawyer advised the professors and the judge .", "idx": "test_263", "label": 1}
+{"query": "The tourists ran .", "document": "The tourists ran , or the president slept .", "idx": "test_264", "label": 0}
+{"query": "The actor helped the secretary .", "document": "The scientist who called the actor helped the secretary .", "idx": "test_265", "label": 0}
+{"query": "The artists supported the tourist .", "document": "If the artists supported the tourist , the students avoided the bankers .", "idx": "test_266", "label": 0}
+{"query": "The secretary advised the doctors .", "document": "The secretary who saw the judges advised the doctors .", "idx": "test_267", "label": 1}
+{"query": "The artists supported the student .", "document": "The artists were supported by the student .", "idx": "test_268", "label": 0}
+{"query": "The manager supported the professors .", "document": "The authors supported the manager and the professors .", "idx": "test_269", "label": 0}
+{"query": "The artists thanked the athlete .", "document": "The professor slept , or the artists thanked the athlete .", "idx": "test_270", "label": 0}
+{"query": "The bankers admired the lawyers .", "document": "The bankers were admired by the lawyers .", "idx": "test_271", "label": 0}
+{"query": "The scientist advised the professor .", "document": "The professor and the scientist advised the doctors .", "idx": "test_272", "label": 0}
+{"query": "The lawyer knew the authors .", "document": "The lawyer knew the authors recognized the president .", "idx": "test_273", "label": 0}
+{"query": "The lawyer believed the bankers .", "document": "The lawyer believed the bankers resigned .", "idx": "test_274", "label": 0}
+{"query": "The scientist supported the senators .", "document": "Whether or not the athletes danced , the scientist supported the senators .", "idx": "test_275", "label": 1}
+{"query": "The student saw the athlete .", "document": "The student and the senator saw the athlete .", "idx": "test_276", "label": 1}
+{"query": "The manager called the senator .", "document": "The actors called the manager near the senator .", "idx": "test_277", "label": 0}
+{"query": "The senators believed the professors .", "document": "Hopefully the senators believed the professors .", "idx": "test_278", "label": 0}
+{"query": "The bankers mentioned the actor .", "document": "The students and the bankers mentioned the actor .", "idx": "test_279", "label": 1}
+{"query": "The lawyers thanked the bankers .", "document": "The lawyers and the bankers thanked the professors .", "idx": "test_280", "label": 0}
+{"query": "The athlete avoided the president .", "document": "The athlete was avoided by the president .", "idx": "test_281", "label": 0}
+{"query": "The doctors believed the lawyers .", "document": "The doctors believed the lawyers ran .", "idx": "test_282", "label": 0}
+{"query": "The manager avoided the authors .", "document": "The manager that recommended the professor avoided the authors .", "idx": "test_283", "label": 1}
+{"query": "The doctor presented the tourists .", "document": "After the doctor presented the tourists recommended the judge .", "idx": "test_284", "label": 0}
+{"query": "The authors performed .", "document": "Whether or not the artists waited , the authors performed .", "idx": "test_285", "label": 1}
+{"query": "The actor stopped the lawyer .", "document": "Suddenly the actor stopped the lawyer .", "idx": "test_286", "label": 1}
+{"query": "The author believed the athlete .", "document": "The tourist next to the author believed the athlete .", "idx": "test_287", "label": 0}
+{"query": "The doctor recognized the scientists .", "document": "While the judge believed the senators , the doctor recognized the scientists .", "idx": "test_288", "label": 1}
+{"query": "The president paid .", "document": "The president paid the secretaries .", "idx": "test_289", "label": 1}
+{"query": "The presidents mentioned the scientists .", "document": "The presidents mentioned the scientists next to the manager .", "idx": "test_290", "label": 1}
+{"query": "The judge contacted the doctors .", "document": "The judge contacted the doctors near the athletes .", "idx": "test_291", "label": 1}
+{"query": "The senator stopped the lawyers .", "document": "The senator by the doctor stopped the lawyers .", "idx": "test_292", "label": 1}
+{"query": "The professor encouraged the author .", "document": "The author that the professor encouraged mentioned the students .", "idx": "test_293", "label": 1}
+{"query": "The athlete encouraged the judge .", "document": "The scientist encouraged the athlete and the judge .", "idx": "test_294", "label": 0}
+{"query": "The tourists arrived .", "document": "While the tourists arrived , the manager saw the professor .", "idx": "test_295", "label": 1}
+{"query": "The judges contacted the secretary .", "document": "The scientist learned that the judges contacted the secretary .", "idx": "test_296", "label": 1}
+{"query": "The tourist mentioned the managers .", "document": "The managers mentioned the judges next to the tourist .", "idx": "test_297", "label": 0}
+{"query": "The presidents believed the student .", "document": "The presidents believed the student called the athlete .", "idx": "test_298", "label": 0}
+{"query": "Students saw the tourists .", "document": "Popular students saw the tourists .", "idx": "test_299", "label": 1}
+{"query": "The author helped the managers .", "document": "The author that waited helped the managers .", "idx": "test_300", "label": 1}
+{"query": "The artist recommended the banker .", "document": "The artist recommended the banker who helped the judges .", "idx": "test_301", "label": 1}
+{"query": "The professor slept .", "document": "The professor slept , and the managers contacted the lawyer .", "idx": "test_302", "label": 1}
+{"query": "The secretaries performed .", "document": "The judge learned that the secretaries performed .", "idx": "test_303", "label": 1}
+{"query": "The authors contacted the professor .", "document": "The authors contacted the professor and the bankers .", "idx": "test_304", "label": 1}
+{"query": "The lawyers shouted .", "document": "Unless the actors supported the scientists , the lawyers shouted .", "idx": "test_305", "label": 0}
+{"query": "The actor believed the artist .", "document": "The actor believed the artist shouted .", "idx": "test_306", "label": 0}
+{"query": "The author recommended the judges .", "document": "The student by the author recommended the judges .", "idx": "test_307", "label": 0}
+{"query": "The secretary helped the professors .", "document": "The lawyer introduced the doctors , or the secretary helped the professors .", "idx": "test_308", "label": 0}
+{"query": "The scientists arrived .", "document": "The lawyer knew that the scientists arrived .", "idx": "test_309", "label": 1}
+{"query": "The presidents mentioned the students .", "document": "The presidents mentioned the author and the students .", "idx": "test_310", "label": 1}
+{"query": "The athletes arrived .", "document": "If the athletes arrived , the tourist believed the secretary .", "idx": "test_311", "label": 0}
+{"query": "The artists introduced the doctor .", "document": "The senators near the artists introduced the doctor .", "idx": "test_312", "label": 0}
+{"query": "The secretary helped the manager .", "document": "The manager was helped by the secretary .", "idx": "test_313", "label": 1}
+{"query": "The author paid in the laboratory .", "document": "The actor thanked the author paid in the laboratory .", "idx": "test_314", "label": 0}
+{"query": "The lawyers encouraged the the judges .", "document": "The scientist encouraged the lawyers that avoided the judges .", "idx": "test_315", "label": 0}
+{"query": "The students encouraged the doctors .", "document": "The students encouraged the doctors behind the judge .", "idx": "test_316", "label": 1}
+{"query": "The lawyer paid the bankers .", "document": "While the lawyer paid the bankers introduced the presidents .", "idx": "test_317", "label": 0}
+{"query": "The bankers supported the doctors .", "document": "If the secretaries slept , the bankers supported the doctors .", "idx": "test_318", "label": 0}
+{"query": "The athlete mentioned the artist .", "document": "After the secretary ran , the athlete mentioned the artist .", "idx": "test_319", "label": 1}
+{"query": "The bankers called the doctor .", "document": "The bankers near the secretary called the doctor .", "idx": "test_320", "label": 1}
+{"query": "The professor admired the presidents .", "document": "The professor admired the presidents and the actors .", "idx": "test_321", "label": 1}
+{"query": "The lawyer studied in the museum .", "document": "The actor recognized the lawyer studied in the museum .", "idx": "test_322", "label": 0}
+{"query": "The managers won .", "document": "The managers won the contest .", "idx": "test_323", "label": 1}
+{"query": "The lawyers avoided the senator .", "document": "The senator avoided the lawyers .", "idx": "test_324", "label": 0}
+{"query": "The judges slept .", "document": "The lawyers behind the judges slept .", "idx": "test_325", "label": 0}
+{"query": "The author mentioned the president .", "document": "The author mentioned the president who advised the professor .", "idx": "test_326", "label": 1}
+{"query": "The student introduced the scientist .", "document": "Obviously the student introduced the scientist .", "idx": "test_327", "label": 1}
+{"query": "The scientists introduced the senators .", "document": "The scientists introduced the senators behind the manager .", "idx": "test_328", "label": 1}
+{"query": "The president mentioned the judges .", "document": "The judges mentioned the president .", "idx": "test_329", "label": 0}
+{"query": "The bankers knew the judges .", "document": "The bankers knew the judges performed .", "idx": "test_330", "label": 0}
+{"query": "The authors thanked the doctor .", "document": "The doctor and the authors thanked the president .", "idx": "test_331", "label": 0}
+{"query": "The secretaries helped the lawyer .", "document": "The secretaries helped the lawyer by the senators .", "idx": "test_332", "label": 1}
+{"query": "Presidents avoided the managers .", "document": "Young presidents avoided the managers .", "idx": "test_333", "label": 1}
+{"query": "The artists recommended the actors .", "document": "The actors recommended the artists by the judge .", "idx": "test_334", "label": 0}
+{"query": "The managers supported the secretaries .", "document": "Because the managers supported the secretaries , the senators arrived .", "idx": "test_335", "label": 1}
+{"query": "The managers introduced the authors .", "document": "The authors were introduced by the managers .", "idx": "test_336", "label": 1}
+{"query": "The banker advised the senator .", "document": "The lawyers thought that the banker advised the senator .", "idx": "test_337", "label": 0}
+{"query": "The actor resigned .", "document": "Hopefully the actor resigned .", "idx": "test_338", "label": 0}
+{"query": "The president supported the scientist .", "document": "The president was supported by the scientist .", "idx": "test_339", "label": 0}
+{"query": "The professors avoided the bankers .", "document": "In case the tourists supported the actor , the professors avoided the bankers .", "idx": "test_340", "label": 1}
+{"query": "The lawyer contacted the student .", "document": "The judge contacted the student and the lawyer .", "idx": "test_341", "label": 0}
+{"query": "The athletes stopped the professor .", "document": "Supposedly the athletes stopped the professor .", "idx": "test_342", "label": 0}
+{"query": "The tourists helped the bankers .", "document": "The lawyer avoided the artist , and the tourists helped the bankers .", "idx": "test_343", "label": 1}
+{"query": "The judges admired the actors .", "document": "Before the judges admired the actors , the presidents thanked the managers .", "idx": "test_344", "label": 1}
+{"query": "The actors contacted the judge .", "document": "Obviously the actors contacted the judge .", "idx": "test_345", "label": 1}
+{"query": "The professors encouraged the athletes .", "document": "After the lawyer recommended the secretaries , the professors encouraged the athletes .", "idx": "test_346", "label": 1}
+{"query": "The author admired the professor .", "document": "The athlete in front of the author admired the professor .", "idx": "test_347", "label": 0}
+{"query": "The judge encouraged the author .", "document": "The athletes saw the tourists , or the judge encouraged the author .", "idx": "test_348", "label": 0}
+{"query": "The student recognized the manager .", "document": "The student and the presidents recognized the manager .", "idx": "test_349", "label": 1}
+{"query": "The manager helped the presidents .", "document": "The manager was helped by the presidents .", "idx": "test_350", "label": 0}
+{"query": "The president resigned .", "document": "Hopefully the president resigned .", "idx": "test_351", "label": 0}
+{"query": "The students advised the actor .", "document": "The students were advised by the actor .", "idx": "test_352", "label": 0}
+{"query": "The tourist recommended the artist .", "document": "The tourist was recommended by the artist .", "idx": "test_353", "label": 0}
+{"query": "The authors paid in the school .", "document": "The authors paid in the school advised the student .", "idx": "test_354", "label": 0}
+{"query": "The secretary danced .", "document": "Whether or not the secretary danced , the artist thanked the doctor .", "idx": "test_355", "label": 0}
+{"query": "The student saw the senator .", "document": "The president hoped that the student saw the senator .", "idx": "test_356", "label": 0}
+{"query": "The secretary investigated in the office .", "document": "The professor advised the secretary investigated in the office .", "idx": "test_357", "label": 0}
+{"query": "The actor ran .", "document": "The judge that recommended the actor ran .", "idx": "test_358", "label": 0}
+{"query": "The scientists contacted the doctor .", "document": "The artist and the scientists contacted the doctor .", "idx": "test_359", "label": 1}
+{"query": "The actor performed .", "document": "The professors by the actor performed .", "idx": "test_360", "label": 0}
+{"query": "The athlete believed the author .", "document": "The author that the athlete believed called the doctors .", "idx": "test_361", "label": 1}
+{"query": "The president waited .", "document": "While the president waited , the scientist saw the judge .", "idx": "test_362", "label": 1}
+{"query": "The scientist advised the doctors .", "document": "The scientist was advised by the doctors .", "idx": "test_363", "label": 0}
+{"query": "The actor stopped the professor .", "document": "The actor stopped the professor in front of the student .", "idx": "test_364", "label": 1}
+{"query": "The professors avoided the artist .", "document": "The lawyers near the professors avoided the artist .", "idx": "test_365", "label": 0}
+{"query": "The senators contacted the lawyers .", "document": "The presidents behind the senators contacted the lawyers .", "idx": "test_366", "label": 0}
+{"query": "The artists fought the presidents .", "document": "While the artists fought the presidents believed the scientists .", "idx": "test_367", "label": 0}
+{"query": "The artist introduced the scientist .", "document": "The scientist introduced the artist .", "idx": "test_368", "label": 0}
+{"query": "The tourist introduced the doctor .", "document": "The professor encouraged the tourist who introduced the doctor .", "idx": "test_369", "label": 1}
+{"query": "The banker believed the professors .", "document": "The students mentioned the manager , and the banker believed the professors .", "idx": "test_370", "label": 1}
+{"query": "The artist recommended the tourist .", "document": "The tourist recommended the artist .", "idx": "test_371", "label": 0}
+{"query": "The senator danced .", "document": "The manager hoped that the senator danced .", "idx": "test_372", "label": 0}
+{"query": "The author encouraged the judge .", "document": "The author that arrived encouraged the judge .", "idx": "test_373", "label": 1}
+{"query": "The athletes avoided the president .", "document": "The president who helped the athletes avoided the doctors .", "idx": "test_374", "label": 0}
+{"query": "The lawyer helped in the museum .", "document": "The lawyer helped in the museum mentioned the student .", "idx": "test_375", "label": 0}
+{"query": "The actor ran .", "document": "Supposedly the actor ran .", "idx": "test_376", "label": 0}
+{"query": "The senator called the president .", "document": "The author slept , and the senator called the president .", "idx": "test_377", "label": 1}
+{"query": "Authors believed the banker .", "document": "Popular authors believed the banker .", "idx": "test_378", "label": 1}
+{"query": "The judges contacted the senators .", "document": "The secretary contacted the senators and the judges .", "idx": "test_379", "label": 0}
+{"query": "The authors encouraged the managers .", "document": "The managers that the artist recognized encouraged the authors .", "idx": "test_380", "label": 0}
+{"query": "The student believed the athlete .", "document": "The student believed the athlete slept .", "idx": "test_381", "label": 0}
+{"query": "The presidents avoided the athletes .", "document": "The presidents and the athletes avoided the scientists .", "idx": "test_382", "label": 0}
+{"query": "The author studied in the museum .", "document": "The author studied in the museum contacted the student .", "idx": "test_383", "label": 0}
+{"query": "The actors contacted the judges .", "document": "The actors were contacted by the judges .", "idx": "test_384", "label": 0}
+{"query": "The secretaries ran .", "document": "If the professors admired the senators , the secretaries ran .", "idx": "test_385", "label": 0}
+{"query": "The senators stopped the author .", "document": "The senators stopped the author , and the artist performed .", "idx": "test_386", "label": 1}
+{"query": "The president mentioned the tourists .", "document": "The president mentioned the tourists that performed .", "idx": "test_387", "label": 1}
+{"query": "The doctor introduced the managers .", "document": "The doctor who danced introduced the managers .", "idx": "test_388", "label": 1}
+{"query": "The secretary ran .", "document": "The artist and the secretary ran .", "idx": "test_389", "label": 1}
+{"query": "The tourists performed .", "document": "In case the tourists performed , the artist slept .", "idx": "test_390", "label": 0}
+{"query": "The students resigned .", "document": "The lawyers that admired the students resigned .", "idx": "test_391", "label": 0}
+{"query": "The artists contacted the tourists .", "document": "If the actor stopped the student , the artists contacted the tourists .", "idx": "test_392", "label": 0}
+{"query": "The athletes resigned .", "document": "The bankers near the athletes resigned .", "idx": "test_393", "label": 0}
+{"query": "The actor introduced the doctor .", "document": "Unless the professor saw the artist , the actor introduced the doctor .", "idx": "test_394", "label": 0}
+{"query": "The scientist stopped the professors .", "document": "Obviously the scientist stopped the professors .", "idx": "test_395", "label": 1}
+{"query": "The managers saw the student .", "document": "The student saw the managers .", "idx": "test_396", "label": 0}
+{"query": "The managers studied in the library .", "document": "The managers studied in the library arrived .", "idx": "test_397", "label": 0}
+{"query": "The senator contacted the lawyers .", "document": "The lawyers in front of the senator contacted the managers .", "idx": "test_398", "label": 0}
+{"query": "The judges presented in the museum .", "document": "The judges presented in the museum waited .", "idx": "test_399", "label": 0}
+{"query": "The scientist arrived .", "document": "The banker and the scientist arrived .", "idx": "test_400", "label": 1}
+{"query": "The presidents believed the athlete .", "document": "While the lawyers resigned , the presidents believed the athlete .", "idx": "test_401", "label": 1}
+{"query": "The banker believed the lawyers .", "document": "The banker believed the lawyers , or the students performed .", "idx": "test_402", "label": 0}
+{"query": "The scientists slept .", "document": "The students hoped that the scientists slept .", "idx": "test_403", "label": 0}
+{"query": "The lawyers encouraged the actor .", "document": "Maybe the lawyers encouraged the actor .", "idx": "test_404", "label": 0}
+{"query": "The tourist stopped the scientists .", "document": "Obviously the tourist stopped the scientists .", "idx": "test_405", "label": 1}
+{"query": "The senator slept .", "document": "Since the senator slept , the secretary ran .", "idx": "test_406", "label": 1}
+{"query": "The senators ran .", "document": "The artists slept , or the senators ran .", "idx": "test_407", "label": 0}
+{"query": "The doctor performed .", "document": "The senators who called the doctor performed .", "idx": "test_408", "label": 0}
+{"query": "The doctors mentioned the judge .", "document": "If the doctors mentioned the judge , the president thanked the student .", "idx": "test_409", "label": 0}
+{"query": "The tourist resigned .", "document": "The judges that contacted the tourist resigned .", "idx": "test_410", "label": 0}
+{"query": "The author advised the scientist .", "document": "The lawyers advised the scientist and the author .", "idx": "test_411", "label": 0}
+{"query": "The secretary believed the actors .", "document": "The secretary believed the actors resigned .", "idx": "test_412", "label": 0}
+{"query": "The banker saw the lawyers .", "document": "The artists remembered that the banker saw the lawyers .", "idx": "test_413", "label": 1}
+{"query": "The actor introduced the authors .", "document": "The authors were introduced by the actor .", "idx": "test_414", "label": 1}
+{"query": "The judges paid the tourist .", "document": "Although the judges paid the tourist arrived .", "idx": "test_415", "label": 0}
+{"query": "The managers called the lawyer .", "document": "The managers and the banker called the lawyer .", "idx": "test_416", "label": 1}
+{"query": "The students recommended the artist .", "document": "The students that encouraged the authors recommended the artist .", "idx": "test_417", "label": 1}
+{"query": "The presidents helped the professor .", "document": "The professor and the presidents helped the lawyer .", "idx": "test_418", "label": 0}
+{"query": "The senator resigned .", "document": "Before the banker advised the artist , the senator resigned .", "idx": "test_419", "label": 1}
+{"query": "The lawyers contacted the doctors .", "document": "The lawyers contacted the doctors , and the actor ran .", "idx": "test_420", "label": 1}
+{"query": "The senators supported the lawyers .", "document": "The presidents that stopped the senators supported the lawyers .", "idx": "test_421", "label": 0}
+{"query": "The artist recognized the scientists .", "document": "The senator by the artist recognized the scientists .", "idx": "test_422", "label": 0}
+{"query": "The president recognized the artist .", "document": "The president recognized the artist near the doctor .", "idx": "test_423", "label": 1}
+{"query": "The senators encouraged the lawyer .", "document": "Unless the senators encouraged the lawyer , the scientist slept .", "idx": "test_424", "label": 0}
+{"query": "The authors helped the president .", "document": "The secretaries near the authors helped the president .", "idx": "test_425", "label": 0}
+{"query": "The actors arrived .", "document": "The athlete who thanked the actors arrived .", "idx": "test_426", "label": 0}
+{"query": "The managers mentioned the presidents .", "document": "The managers mentioned the tourist and the presidents .", "idx": "test_427", "label": 1}
+{"query": "The bankers helped the secretaries .", "document": "The bankers that performed helped the secretaries .", "idx": "test_428", "label": 1}
+{"query": "The artist ran .", "document": "Unless the president admired the banker , the artist ran .", "idx": "test_429", "label": 0}
+{"query": "The student avoided the artist .", "document": "In case the author shouted , the student avoided the artist .", "idx": "test_430", "label": 1}
+{"query": "The senator presented in the laboratory .", "document": "The manager saw the senator presented in the laboratory .", "idx": "test_431", "label": 0}
+{"query": "The scientists recommended the lawyers .", "document": "The scientists were recommended by the lawyers .", "idx": "test_432", "label": 0}
+{"query": "The presidents avoided the manager .", "document": "The manager who the athlete recognized avoided the presidents .", "idx": "test_433", "label": 0}
+{"query": "The athlete won .", "document": "The athlete won the competition .", "idx": "test_434", "label": 1}
+{"query": "The presidents thanked the manager .", "document": "Of course the presidents thanked the manager .", "idx": "test_435", "label": 1}
+{"query": "The judge introduced the banker .", "document": "Though the actors helped the lawyers , the judge introduced the banker .", "idx": "test_436", "label": 1}
+{"query": "The judges stopped the doctor .", "document": "The doctor stopped the judges .", "idx": "test_437", "label": 0}
+{"query": "The doctors helped the author .", "document": "The doctors helped the author by the actors .", "idx": "test_438", "label": 1}
+{"query": "The actor supported the professor .", "document": "The professor was supported by the actor .", "idx": "test_439", "label": 1}
+{"query": "The senator shouted .", "document": "The doctors claimed that the senator shouted .", "idx": "test_440", "label": 0}
+{"query": "The presidents arrived .", "document": "The lawyers that encouraged the presidents arrived .", "idx": "test_441", "label": 0}
+{"query": "The authors knew the judges .", "document": "The authors knew the judges shouted .", "idx": "test_442", "label": 0}
+{"query": "The student helped in the office .", "document": "The judge advised the student helped in the office .", "idx": "test_443", "label": 0}
+{"query": "The artists explored .", "document": "The artists explored the island .", "idx": "test_444", "label": 1}
+{"query": "The managers supported the student .", "document": "Probably the managers supported the student .", "idx": "test_445", "label": 0}
+{"query": "The student paid in the school .", "document": "The secretary contacted the student paid in the school .", "idx": "test_446", "label": 0}
+{"query": "The authors slept .", "document": "The artists and the authors slept .", "idx": "test_447", "label": 1}
+{"query": "The doctor advised the lawyer .", "document": "The authors encouraged the bankers , and the doctor advised the lawyer .", "idx": "test_448", "label": 1}
+{"query": "The manager admired the scientists .", "document": "The manager admired the author and the scientists .", "idx": "test_449", "label": 1}
+{"query": "The judges thanked the author .", "document": "Suddenly the judges thanked the author .", "idx": "test_450", "label": 1}
+{"query": "The bankers believed the student .", "document": "The bankers believed the student recommended the secretary .", "idx": "test_451", "label": 0}
+{"query": "The actor called the tourists .", "document": "Whether or not the actor called the tourists , the senators advised the managers .", "idx": "test_452", "label": 0}
+{"query": "The actor recommended the author .", "document": "Maybe the actor recommended the author .", "idx": "test_453", "label": 0}
+{"query": "The actor recognized the bankers .", "document": "If the students performed , the actor recognized the bankers .", "idx": "test_454", "label": 0}
+{"query": "The athletes encouraged the scientist .", "document": "Unless the doctor mentioned the artists , the athletes encouraged the scientist .", "idx": "test_455", "label": 0}
+{"query": "The lawyers stopped the banker .", "document": "While the lawyers stopped the banker , the senator danced .", "idx": "test_456", "label": 1}
+{"query": "The managers introduced the bankers .", "document": "The managers and the author introduced the bankers .", "idx": "test_457", "label": 1}
+{"query": "The doctor introduced the artists .", "document": "Unless the president danced , the doctor introduced the artists .", "idx": "test_458", "label": 0}
+{"query": "The athlete saw the artists .", "document": "The doctors by the athlete saw the artists .", "idx": "test_459", "label": 0}
+{"query": "The tourists saw the students .", "document": "The tourists saw the students in front of the athlete .", "idx": "test_460", "label": 1}
+{"query": "The actor encouraged the athletes .", "document": "The actor was encouraged by the athletes .", "idx": "test_461", "label": 0}
+{"query": "The professor mentioned the artist .", "document": "The secretary and the professor mentioned the artist .", "idx": "test_462", "label": 1}
+{"query": "The author arrived .", "document": "The doctors remembered that the author arrived .", "idx": "test_463", "label": 1}
+{"query": "The tourists advised the secretary .", "document": "The tourists by the actors advised the secretary .", "idx": "test_464", "label": 1}
+{"query": "The doctors fought the tourists .", "document": "Since the doctors fought the tourists shouted .", "idx": "test_465", "label": 0}
+{"query": "The student encouraged the senator .", "document": "The senator encouraged the student .", "idx": "test_466", "label": 0}
+{"query": "The tourists admired the lawyers .", "document": "The tourists admired the actor and the lawyers .", "idx": "test_467", "label": 1}
+{"query": "The senators resigned .", "document": "The doctor that encouraged the senators resigned .", "idx": "test_468", "label": 0}
+{"query": "The lawyers resigned .", "document": "If the president advised the senator , the lawyers resigned .", "idx": "test_469", "label": 0}
+{"query": "The doctor supported the manager .", "document": "The doctor supported the students and the manager .", "idx": "test_470", "label": 1}
+{"query": "The tourist believed the artist .", "document": "The tourist believed the artist thanked the scientists .", "idx": "test_471", "label": 0}
+{"query": "The secretaries wrote .", "document": "The secretaries wrote the poem .", "idx": "test_472", "label": 1}
+{"query": "The artists stopped the doctors .", "document": "While the artists stopped the doctors , the president called the student .", "idx": "test_473", "label": 1}
+{"query": "The banker introduced the doctor .", "document": "Though the president slept , the banker introduced the doctor .", "idx": "test_474", "label": 1}
+{"query": "The scientists danced .", "document": "If the scientists danced , the tourists arrived .", "idx": "test_475", "label": 0}
+{"query": "The artist encouraged the judges .", "document": "The artist encouraged the judges next to the author .", "idx": "test_476", "label": 1}
+{"query": "The senator helped the president .", "document": "The president helped the secretary next to the senator .", "idx": "test_477", "label": 0}
+{"query": "The professors contacted the actors .", "document": "Unless the senators slept , the professors contacted the actors .", "idx": "test_478", "label": 0}
+{"query": "The presidents encouraged the secretary .", "document": "The secretary was encouraged by the presidents .", "idx": "test_479", "label": 1}
+{"query": "The secretaries heard the manager .", "document": "The secretaries heard the manager mentioned the bankers .", "idx": "test_480", "label": 0}
+{"query": "The judge introduced the students .", "document": "The judge introduced the students next to the manager .", "idx": "test_481", "label": 1}
+{"query": "The senator supported the presidents .", "document": "The athlete supported the senator and the presidents .", "idx": "test_482", "label": 0}
+{"query": "The managers admired the athlete .", "document": "The managers admired the athlete , or the judge arrived .", "idx": "test_483", "label": 0}
+{"query": "The lawyer supported the the tourists .", "document": "The professor supported the lawyer that helped the tourists .", "idx": "test_484", "label": 0}
+{"query": "The artists contacted the secretary .", "document": "The artists contacted the secretary who recommended the senators .", "idx": "test_485", "label": 1}
+{"query": "The tourists supported the professor .", "document": "The tourists were supported by the professor .", "idx": "test_486", "label": 0}
+{"query": "The artist stopped the professor .", "document": "Before the doctors thanked the secretaries , the artist stopped the professor .", "idx": "test_487", "label": 1}
+{"query": "The banker saw the students .", "document": "The students saw the banker .", "idx": "test_488", "label": 0}
+{"query": "Athletes supported the doctors .", "document": "Important athletes supported the doctors .", "idx": "test_489", "label": 1}
+{"query": "The senators contacted the doctors .", "document": "Unless the senators contacted the doctors , the professor helped the judges .", "idx": "test_490", "label": 0}
+{"query": "The professor thanked the banker .", "document": "The banker and the professor thanked the students .", "idx": "test_491", "label": 0}
+{"query": "The banker encouraged the secretary .", "document": "The banker encouraged the secretary , or the artist supported the tourist .", "idx": "test_492", "label": 0}
+{"query": "Managers performed .", "document": "Helpful managers performed .", "idx": "test_493", "label": 1}
+{"query": "The tourist performed .", "document": "If the presidents avoided the students , the tourist performed .", "idx": "test_494", "label": 0}
+{"query": "The scientist helped the students .", "document": "The students were helped by the scientist .", "idx": "test_495", "label": 1}
+{"query": "The senators contacted the professors .", "document": "The senators near the judges contacted the professors .", "idx": "test_496", "label": 1}
+{"query": "The tourists admired the scientists .", "document": "The presidents slept , or the tourists admired the scientists .", "idx": "test_497", "label": 0}
+{"query": "The managers admired the tourist .", "document": "Without a doubt the managers admired the tourist .", "idx": "test_498", "label": 1}
+{"query": "The actors slept .", "document": "Suddenly the actors slept .", "idx": "test_499", "label": 1}
+{"query": "The senator paid the judge .", "document": "Because the senator paid the judge recommended the professors .", "idx": "test_500", "label": 0}
+{"query": "The bankers danced .", "document": "The tourist thought that the bankers danced .", "idx": "test_501", "label": 0}
+{"query": "Authors shouted .", "document": "Important authors shouted .", "idx": "test_502", "label": 1}
+{"query": "The scientist paid the artists .", "document": "After the scientist paid the artists slept .", "idx": "test_503", "label": 0}
+{"query": "The secretaries left .", "document": "The secretaries left the forest .", "idx": "test_504", "label": 1}
+{"query": "The presidents recommended the doctor .", "document": "Of course the presidents recommended the doctor .", "idx": "test_505", "label": 1}
+{"query": "The scientists thanked the senators .", "document": "Although the scientists thanked the senators , the tourists performed .", "idx": "test_506", "label": 1}
+{"query": "The judge won .", "document": "The judge won the battle .", "idx": "test_507", "label": 1}
+{"query": "The secretary recognized the authors .", "document": "The secretary that saw the banker recognized the authors .", "idx": "test_508", "label": 1}
+{"query": "The scientists introduced the president .", "document": "The scientists introduced the president , and the artist stopped the banker .", "idx": "test_509", "label": 1}
+{"query": "The lawyers arrived .", "document": "Because the lawyers arrived , the managers recommended the doctors .", "idx": "test_510", "label": 1}
+{"query": "The banker studied the lawyers .", "document": "Although the banker studied the lawyers danced .", "idx": "test_511", "label": 0}
+{"query": "The president resigned .", "document": "Supposedly the president resigned .", "idx": "test_512", "label": 0}
+{"query": "The actors supported the professors .", "document": "The professors were supported by the actors .", "idx": "test_513", "label": 1}
+{"query": "The professor helped in the library .", "document": "The professor helped in the library mentioned the students .", "idx": "test_514", "label": 0}
+{"query": "The secretary recognized the presidents .", "document": "The presidents recognized the secretary .", "idx": "test_515", "label": 0}
+{"query": "The tourists presented in the laboratory .", "document": "The scientists supported the tourists presented in the laboratory .", "idx": "test_516", "label": 0}
+{"query": "The banker advised the lawyer .", "document": "In case the actor helped the judge , the banker advised the lawyer .", "idx": "test_517", "label": 1}
+{"query": "Students stopped the athletes .", "document": "Important students stopped the athletes .", "idx": "test_518", "label": 1}
+{"query": "The managers introduced the students .", "document": "The managers were introduced by the students .", "idx": "test_519", "label": 0}
+{"query": "The manager helped the professors .", "document": "The manager helped the professors and the doctor .", "idx": "test_520", "label": 1}
+{"query": "The scientists introduced the student .", "document": "The president introduced the scientists and the student .", "idx": "test_521", "label": 0}
+{"query": "The professors admired the judges .", "document": "The professors admired the judges near the students .", "idx": "test_522", "label": 1}
+{"query": "The professor admired the secretaries .", "document": "Supposedly the professor admired the secretaries .", "idx": "test_523", "label": 0}
+{"query": "The actor advised the artists .", "document": "The banker who contacted the actor advised the artists .", "idx": "test_524", "label": 0}
+{"query": "The artist believed the doctors .", "document": "The artist believed the doctors introduced the actor .", "idx": "test_525", "label": 0}
+{"query": "The student stopped the presidents .", "document": "The presidents were stopped by the student .", "idx": "test_526", "label": 1}
+{"query": "Lawyers mentioned the actors .", "document": "Happy lawyers mentioned the actors .", "idx": "test_527", "label": 1}
+{"query": "The author believed the scientists .", "document": "The author was believed by the scientists .", "idx": "test_528", "label": 0}
+{"query": "The actors supported the president .", "document": "The actors and the authors supported the president .", "idx": "test_529", "label": 1}
+{"query": "The authors supported the secretary .", "document": "The authors supported the secretary next to the tourist .", "idx": "test_530", "label": 1}
+{"query": "The doctor advised the judges .", "document": "Though the doctor advised the judges , the president helped the actors .", "idx": "test_531", "label": 1}
+{"query": "The athletes recommended the students .", "document": "The athletes recommended the students next to the judges .", "idx": "test_532", "label": 1}
+{"query": "The athlete believed the lawyer .", "document": "The athlete believed the lawyer helped the doctor .", "idx": "test_533", "label": 0}
+{"query": "The student introduced the scientists .", "document": "The student was introduced by the scientists .", "idx": "test_534", "label": 0}
+{"query": "The managers recommended the lawyer .", "document": "Although the managers recommended the lawyer , the judge danced .", "idx": "test_535", "label": 1}
+{"query": "The banker thanked the judges .", "document": "The judges who the tourist stopped thanked the banker .", "idx": "test_536", "label": 0}
+{"query": "The judge believed the bankers .", "document": "Unless the athletes contacted the president , the judge believed the bankers .", "idx": "test_537", "label": 0}
+{"query": "The tourist contacted the scientist .", "document": "The tourist contacted the scientist by the student .", "idx": "test_538", "label": 1}
+{"query": "The authors fought the secretary .", "document": "While the authors fought the secretary contacted the professor .", "idx": "test_539", "label": 0}
+{"query": "The tourists recognized the senators .", "document": "The athlete behind the tourists recognized the senators .", "idx": "test_540", "label": 0}
+{"query": "The doctors fought the scientists .", "document": "Although the doctors fought the scientists saw the manager .", "idx": "test_541", "label": 0}
+{"query": "The athletes recommended the tourist .", "document": "The athletes in front of the artist recommended the tourist .", "idx": "test_542", "label": 1}
+{"query": "The tourist avoided the actor .", "document": "The doctors near the tourist avoided the actor .", "idx": "test_543", "label": 0}
+{"query": "The judge arrived .", "document": "The actor that helped the judge arrived .", "idx": "test_544", "label": 0}
+{"query": "The senator introduced the lawyers .", "document": "If the senator introduced the lawyers , the artist encouraged the doctors .", "idx": "test_545", "label": 0}
+{"query": "The bankers presented the athletes .", "document": "When the bankers presented the athletes waited .", "idx": "test_546", "label": 0}
+{"query": "The actor mentioned the senators .", "document": "The senators were mentioned by the actor .", "idx": "test_547", "label": 1}
+{"query": "The actors thanked the bankers .", "document": "The bankers thanked the doctors that supported the actors .", "idx": "test_548", "label": 0}
+{"query": "The manager admired the student .", "document": "Supposedly the manager admired the student .", "idx": "test_549", "label": 0}
+{"query": "The bankers mentioned the tourists .", "document": "The students next to the tourists mentioned the bankers .", "idx": "test_550", "label": 0}
+{"query": "The managers stopped the doctor .", "document": "The doctor was stopped by the managers .", "idx": "test_551", "label": 1}
+{"query": "The artists knew the secretaries .", "document": "The artists knew the secretaries called the judge .", "idx": "test_552", "label": 0}
+{"query": "The actors saw the lawyer .", "document": "The actors who the secretary thanked saw the lawyer .", "idx": "test_553", "label": 1}
+{"query": "The artist presented the student .", "document": "When the artist presented the student supported the tourists .", "idx": "test_554", "label": 0}
+{"query": "The banker studied in the museum .", "document": "The banker studied in the museum performed .", "idx": "test_555", "label": 0}
+{"query": "The banker mentioned the scientists .", "document": "After the manager thanked the lawyer , the banker mentioned the scientists .", "idx": "test_556", "label": 1}
+{"query": "The managers advised the student .", "document": "The managers by the bankers advised the student .", "idx": "test_557", "label": 1}
+{"query": "The president encouraged the managers .", "document": "The managers encouraged the president in front of the athletes .", "idx": "test_558", "label": 0}
+{"query": "The managers believed the lawyers .", "document": "The lawyers were believed by the managers .", "idx": "test_559", "label": 1}
+{"query": "The artist encouraged the secretary .", "document": "The secretary encouraged the artist .", "idx": "test_560", "label": 0}
+{"query": "The senator slept .", "document": "The tourist thanked the professors , and the senator slept .", "idx": "test_561", "label": 1}
+{"query": "The actor ate .", "document": "The actor ate the ice cream .", "idx": "test_562", "label": 1}
+{"query": "The artists waited .", "document": "Hopefully the artists waited .", "idx": "test_563", "label": 0}
+{"query": "The athletes arrived .", "document": "Supposedly the athletes arrived .", "idx": "test_564", "label": 0}
+{"query": "The tourist saw the scientist .", "document": "The judge thanked the tourist that saw the scientist .", "idx": "test_565", "label": 1}
+{"query": "The students called the scientist .", "document": "The scientist called the professors that recognized the students .", "idx": "test_566", "label": 0}
+{"query": "The scientists contacted the student .", "document": "After the lawyer slept , the scientists contacted the student .", "idx": "test_567", "label": 1}
+{"query": "The students shouted .", "document": "Because the secretaries contacted the banker , the students shouted .", "idx": "test_568", "label": 1}
+{"query": "The athletes recognized the judge .", "document": "The doctor next to the athletes recognized the judge .", "idx": "test_569", "label": 0}
+{"query": "The presidents thanked the secretary .", "document": "The presidents thanked the secretary by the senators .", "idx": "test_570", "label": 1}
+{"query": "The judges recommended the presidents .", "document": "Though the actor performed , the judges recommended the presidents .", "idx": "test_571", "label": 1}
+{"query": "The lawyers studied in the laboratory .", "document": "The athletes admired the lawyers studied in the laboratory .", "idx": "test_572", "label": 0}
+{"query": "The authors stopped the student .", "document": "After the authors stopped the student , the scientist thanked the doctors .", "idx": "test_573", "label": 1}
+{"query": "The scientists helped in the museum .", "document": "The lawyers avoided the scientists helped in the museum .", "idx": "test_574", "label": 0}
+{"query": "The judges advised the senator .", "document": "The senator that the actors thanked advised the judges .", "idx": "test_575", "label": 0}
+{"query": "The president contacted the senator .", "document": "The president contacted the artists and the senator .", "idx": "test_576", "label": 1}
+{"query": "The tourists stopped the secretary .", "document": "The secretary who the athletes recognized stopped the tourists .", "idx": "test_577", "label": 0}
+{"query": "The doctor introduced the senators .", "document": "The doctor was introduced by the senators .", "idx": "test_578", "label": 0}
+{"query": "The secretaries avoided the doctors .", "document": "Unless the senator slept , the secretaries avoided the doctors .", "idx": "test_579", "label": 0}
+{"query": "The authors advised the lawyer .", "document": "The authors were advised by the lawyer .", "idx": "test_580", "label": 0}
+{"query": "The artist admired the managers .", "document": "The managers admired the artist in front of the judges .", "idx": "test_581", "label": 0}
+{"query": "The doctor recognized the artist .", "document": "The authors waited , and the doctor recognized the artist .", "idx": "test_582", "label": 1}
+{"query": "The scientist paid in the school .", "document": "The scientist paid in the school supported the artist .", "idx": "test_583", "label": 0}
+{"query": "The president performed .", "document": "If the artists stopped the judge , the president performed .", "idx": "test_584", "label": 0}
+{"query": "The professor encouraged the author .", "document": "The author encouraged the professor .", "idx": "test_585", "label": 0}
+{"query": "The tourists contacted the doctor .", "document": "Unless the tourists contacted the doctor , the senators thanked the judges .", "idx": "test_586", "label": 0}
+{"query": "The scientist avoided the presidents .", "document": "The presidents that the scientist avoided supported the senator .", "idx": "test_587", "label": 1}
+{"query": "The scientists thanked the doctors .", "document": "The doctors thanked the scientists .", "idx": "test_588", "label": 0}
+{"query": "The tourists danced .", "document": "The actor called the author , or the tourists danced .", "idx": "test_589", "label": 0}
+{"query": "The doctors stopped the authors .", "document": "The authors stopped the doctors .", "idx": "test_590", "label": 0}
+{"query": "The bankers advised the presidents .", "document": "The senator called the secretary , or the bankers advised the presidents .", "idx": "test_591", "label": 0}
+{"query": "The secretaries stopped the artist .", "document": "The senator knew that the secretaries stopped the artist .", "idx": "test_592", "label": 1}
+{"query": "The president helped the senator .", "document": "Although the manager advised the secretary , the president helped the senator .", "idx": "test_593", "label": 1}
+{"query": "The author danced .", "document": "The student believed that the author danced .", "idx": "test_594", "label": 0}
+{"query": "The student believed the lawyer .", "document": "The student believed the lawyer next to the authors .", "idx": "test_595", "label": 1}
+{"query": "The students advised the secretary .", "document": "The students advised the secretary and the actor .", "idx": "test_596", "label": 1}
+{"query": "The secretary advised the artists .", "document": "The secretary was advised by the artists .", "idx": "test_597", "label": 0}
+{"query": "The bankers thanked the actors .", "document": "Probably the bankers thanked the actors .", "idx": "test_598", "label": 0}
+{"query": "The athlete avoided the managers .", "document": "Unless the athlete avoided the managers , the president waited .", "idx": "test_599", "label": 0}
+{"query": "The doctors contacted the professors .", "document": "The senator by the doctors contacted the professors .", "idx": "test_600", "label": 0}
+{"query": "The athletes encouraged the students .", "document": "The managers who thanked the athletes encouraged the students .", "idx": "test_601", "label": 0}
+{"query": "The actors admired the professors .", "document": "The actors that the president called admired the professors .", "idx": "test_602", "label": 1}
+{"query": "The tourists ran .", "document": "The doctor learned that the tourists ran .", "idx": "test_603", "label": 1}
+{"query": "The athletes avoided the secretaries .", "document": "Before the managers shouted , the athletes avoided the secretaries .", "idx": "test_604", "label": 1}
+{"query": "The banker saw the secretary .", "document": "The secretary saw the tourists by the banker .", "idx": "test_605", "label": 0}
+{"query": "The secretaries slept .", "document": "Though the senators recommended the athlete , the secretaries slept .", "idx": "test_606", "label": 1}
+{"query": "The secretaries admired the actor .", "document": "The secretaries admired the actor , or the authors recommended the banker .", "idx": "test_607", "label": 0}
+{"query": "The senator supported the actor .", "document": "In case the senator supported the actor , the lawyer performed .", "idx": "test_608", "label": 0}
+{"query": "The student advised the athletes .", "document": "The presidents and the student advised the athletes .", "idx": "test_609", "label": 1}
+{"query": "The athletes helped the author .", "document": "The professor introduced the author that the athletes helped .", "idx": "test_610", "label": 1}
+{"query": "The judge believed the presidents .", "document": "The presidents that the judge believed saw the senator .", "idx": "test_611", "label": 1}
+{"query": "The president recommended the professors .", "document": "The senators remembered that the president recommended the professors .", "idx": "test_612", "label": 1}
+{"query": "The bankers contacted the judge .", "document": "The judge contacted the bankers .", "idx": "test_613", "label": 0}
+{"query": "The athletes advised the banker .", "document": "The professors advised the athletes who the banker contacted .", "idx": "test_614", "label": 0}
+{"query": "The presidents stopped the scientists .", "document": "The presidents stopped the athlete and the scientists .", "idx": "test_615", "label": 1}
+{"query": "The senator mentioned the student .", "document": "The senator mentioned the student , or the manager danced .", "idx": "test_616", "label": 0}
+{"query": "The tourists admired the scientists .", "document": "The tourists that admired the scientists believed the athlete .", "idx": "test_617", "label": 1}
+{"query": "The secretaries introduced the tourists .", "document": "The tourists introduced the secretaries .", "idx": "test_618", "label": 0}
+{"query": "The senator admired the banker .", "document": "The senator admired the banker and the athlete .", "idx": "test_619", "label": 1}
+{"query": "The professor encouraged the senators .", "document": "Without a doubt the professor encouraged the senators .", "idx": "test_620", "label": 1}
+{"query": "The judges advised the managers .", "document": "The president that the managers supported advised the judges .", "idx": "test_621", "label": 0}
+{"query": "The students slept .", "document": "Whether or not the banker shouted , the students slept .", "idx": "test_622", "label": 1}
+{"query": "The banker contacted the artists .", "document": "The scientists in front of the banker contacted the artists .", "idx": "test_623", "label": 0}
+{"query": "The senators admired the athlete .", "document": "The athlete admired the senators who the president avoided .", "idx": "test_624", "label": 0}
+{"query": "The judge saw the lawyer .", "document": "Since the professor danced , the judge saw the lawyer .", "idx": "test_625", "label": 1}
+{"query": "The tourists believed the athlete .", "document": "Hopefully the tourists believed the athlete .", "idx": "test_626", "label": 0}
+{"query": "The senator recommended the tourists .", "document": "The lawyer that the tourists believed recommended the senator .", "idx": "test_627", "label": 0}
+{"query": "The presidents introduced the scientist .", "document": "The presidents introduced the scientist , or the author called the actors .", "idx": "test_628", "label": 0}
+{"query": "The president resigned .", "document": "Though the doctors thanked the lawyers , the president resigned .", "idx": "test_629", "label": 1}
+{"query": "The presidents contacted the tourist .", "document": "The presidents contacted the tourist , and the professor mentioned the students .", "idx": "test_630", "label": 1}
+{"query": "The tourist encouraged the managers .", "document": "The managers were encouraged by the tourist .", "idx": "test_631", "label": 1}
+{"query": "The secretaries wrote .", "document": "The secretaries wrote the book .", "idx": "test_632", "label": 1}
+{"query": "The doctor left .", "document": "The doctor left the town .", "idx": "test_633", "label": 1}
+{"query": "The author saw the senators .", "document": "The senators saw the author .", "idx": "test_634", "label": 0}
+{"query": "The secretary introduced the student .", "document": "The secretary was introduced by the student .", "idx": "test_635", "label": 0}
+{"query": "The athletes supported the judges .", "document": "The athletes that supported the judges called the presidents .", "idx": "test_636", "label": 1}
+{"query": "The senators avoided the secretaries .", "document": "The senators were avoided by the secretaries .", "idx": "test_637", "label": 0}
+{"query": "The authors believed the bankers .", "document": "The authors and the artist believed the bankers .", "idx": "test_638", "label": 1}
+{"query": "The student introduced the presidents .", "document": "The tourists in front of the student introduced the presidents .", "idx": "test_639", "label": 0}
+{"query": "The managers called the professor .", "document": "The professor called the managers .", "idx": "test_640", "label": 0}
+{"query": "The judges danced .", "document": "Because the judges danced , the author introduced the professor .", "idx": "test_641", "label": 1}
+{"query": "The presidents believed the lawyer .", "document": "The lawyer who the presidents believed thanked the actors .", "idx": "test_642", "label": 1}
+{"query": "The managers heard the secretary .", "document": "The managers heard the secretary waited .", "idx": "test_643", "label": 0}
+{"query": "The managers believed the actor .", "document": "The actor was believed by the managers .", "idx": "test_644", "label": 1}
+{"query": "The students thanked the actor .", "document": "The students thanked the actor , or the athletes ran .", "idx": "test_645", "label": 0}
+{"query": "The athlete contacted the doctor .", "document": "The lawyers in front of the athlete contacted the doctor .", "idx": "test_646", "label": 0}
+{"query": "The actors encouraged the author .", "document": "The actors were encouraged by the author .", "idx": "test_647", "label": 0}
+{"query": "The artists recognized the president .", "document": "The president that the artists recognized contacted the senators .", "idx": "test_648", "label": 1}
+{"query": "The judge stopped the scientists .", "document": "The scientists stopped the judge who the professor admired .", "idx": "test_649", "label": 0}
+{"query": "The scientists thanked the tourists .", "document": "The tourists were thanked by the scientists .", "idx": "test_650", "label": 1}
+{"query": "The banker thanked the senators .", "document": "Whether or not the doctor waited , the banker thanked the senators .", "idx": "test_651", "label": 1}
+{"query": "The scientists contacted the managers .", "document": "The scientists behind the tourist contacted the managers .", "idx": "test_652", "label": 1}
+{"query": "The scientists mentioned the judges .", "document": "The banker thanked the senators , and the scientists mentioned the judges .", "idx": "test_653", "label": 1}
+{"query": "The lawyers called the manager .", "document": "The lawyers called the manager behind the actors .", "idx": "test_654", "label": 1}
+{"query": "The president left .", "document": "The president left the island .", "idx": "test_655", "label": 1}
+{"query": "The scientists hid the tourist .", "document": "Since the scientists hid the tourist called the manager .", "idx": "test_656", "label": 0}
+{"query": "Actors thanked the artist .", "document": "Young actors thanked the artist .", "idx": "test_657", "label": 1}
+{"query": "The artists thanked the scientist .", "document": "The artists thanked the scientist near the senator .", "idx": "test_658", "label": 1}
+{"query": "The professor avoided the manager .", "document": "The professor was avoided by the manager .", "idx": "test_659", "label": 0}
+{"query": "The lawyers ran .", "document": "If the senator encouraged the professors , the lawyers ran .", "idx": "test_660", "label": 0}
+{"query": "The lawyers danced .", "document": "Unless the lawyers danced , the judges arrived .", "idx": "test_661", "label": 0}
+{"query": "The president encouraged the athletes .", "document": "The athletes were encouraged by the president .", "idx": "test_662", "label": 1}
+{"query": "The senators called the authors .", "document": "The senators called the actors and the authors .", "idx": "test_663", "label": 1}
+{"query": "The professors thanked the lawyers .", "document": "The lawyers were thanked by the professors .", "idx": "test_664", "label": 1}
+{"query": "The scientist saw the presidents .", "document": "Though the scientist saw the presidents , the doctors advised the author .", "idx": "test_665", "label": 1}
+{"query": "The actors supported the lawyer .", "document": "The actors were supported by the lawyer .", "idx": "test_666", "label": 0}
+{"query": "The doctor stopped the athletes .", "document": "The doctor stopped the athletes , or the scientist shouted .", "idx": "test_667", "label": 0}
+{"query": "The professor studied the scientist .", "document": "While the professor studied the scientist introduced the president .", "idx": "test_668", "label": 0}
+{"query": "The doctors thanked the artist .", "document": "The actor thanked the artist and the doctors .", "idx": "test_669", "label": 0}
+{"query": "The judges ate .", "document": "The judges ate the ice cream .", "idx": "test_670", "label": 1}
+{"query": "The managers admired the artists .", "document": "The managers were admired by the artists .", "idx": "test_671", "label": 0}
+{"query": "The doctors advised the secretaries .", "document": "If the doctors advised the secretaries , the tourists helped the scientists .", "idx": "test_672", "label": 0}
+{"query": "The senator avoided the student .", "document": "The senator was avoided by the student .", "idx": "test_673", "label": 0}
+{"query": "The student ran .", "document": "The student ran , or the senator arrived .", "idx": "test_674", "label": 0}
+{"query": "The tourist recommended the authors .", "document": "Whether or not the tourist recommended the authors , the scientists advised the artists .", "idx": "test_675", "label": 0}
+{"query": "The banker ran .", "document": "Suddenly the banker ran .", "idx": "test_676", "label": 1}
+{"query": "The artists fought the manager .", "document": "Although the artists fought the manager resigned .", "idx": "test_677", "label": 0}
+{"query": "The judges avoided the secretaries .", "document": "The judges near the athletes avoided the secretaries .", "idx": "test_678", "label": 1}
+{"query": "The managers ate .", "document": "The managers ate the ice cream .", "idx": "test_679", "label": 1}
+{"query": "The manager arrived .", "document": "Unless the artist advised the scientists , the manager arrived .", "idx": "test_680", "label": 0}
+{"query": "The banker called the authors .", "document": "Probably the banker called the authors .", "idx": "test_681", "label": 0}
+{"query": "The students danced .", "document": "The artist who stopped the students danced .", "idx": "test_682", "label": 0}
+{"query": "The actors avoided the tourists .", "document": "The lawyer knew that the actors avoided the tourists .", "idx": "test_683", "label": 1}
+{"query": "The scientist supported the lawyers .", "document": "In case the scientist supported the lawyers , the president called the senator .", "idx": "test_684", "label": 0}
+{"query": "The professors left .", "document": "The professors left the country .", "idx": "test_685", "label": 1}
+{"query": "The authors moved the presidents .", "document": "Although the authors moved the presidents arrived .", "idx": "test_686", "label": 0}
+{"query": "The secretary recognized the student .", "document": "Although the secretary recognized the student , the presidents advised the professors .", "idx": "test_687", "label": 1}
+{"query": "The professors recognized the presidents .", "document": "Of course the professors recognized the presidents .", "idx": "test_688", "label": 1}
+{"query": "The author stopped the judge .", "document": "Although the author stopped the judge , the managers slept .", "idx": "test_689", "label": 1}
+{"query": "The managers contacted the artist .", "document": "The managers by the scientists contacted the artist .", "idx": "test_690", "label": 1}
+{"query": "The tourists mentioned the scientist .", "document": "The senator knew that the tourists mentioned the scientist .", "idx": "test_691", "label": 1}
+{"query": "The artists helped the president .", "document": "The artists who the secretary advised helped the president .", "idx": "test_692", "label": 1}
+{"query": "The senators hid the professors .", "document": "While the senators hid the professors resigned .", "idx": "test_693", "label": 0}
+{"query": "The presidents saw the doctors .", "document": "The manager saw the presidents that the doctors stopped .", "idx": "test_694", "label": 0}
+{"query": "The artist slept .", "document": "The athlete and the artist slept .", "idx": "test_695", "label": 1}
+{"query": "The managers resigned .", "document": "In case the managers resigned , the banker called the tourists .", "idx": "test_696", "label": 0}
+{"query": "The senators believed the secretaries .", "document": "The senators by the authors believed the secretaries .", "idx": "test_697", "label": 1}
+{"query": "The scientists mentioned the doctors .", "document": "The scientists mentioned the doctors by the president .", "idx": "test_698", "label": 1}
+{"query": "The student recommended the senator .", "document": "If the authors helped the actor , the student recommended the senator .", "idx": "test_699", "label": 0}
+{"query": "The actor shouted .", "document": "The actor shouted , and the student introduced the manager .", "idx": "test_700", "label": 1}
+{"query": "Artists slept .", "document": "Angry artists slept .", "idx": "test_701", "label": 1}
+{"query": "The professors presented in the office .", "document": "The professors presented in the office admired the bankers .", "idx": "test_702", "label": 0}
+{"query": "The professor supported the artist .", "document": "In case the secretaries helped the actors , the professor supported the artist .", "idx": "test_703", "label": 1}
+{"query": "The authors slept .", "document": "The actor advised the athletes , or the authors slept .", "idx": "test_704", "label": 0}
+{"query": "The professor introduced the secretaries .", "document": "The presidents by the professor introduced the secretaries .", "idx": "test_705", "label": 0}
+{"query": "The lawyer advised the actor .", "document": "The lawyer advised the actor who supported the professors .", "idx": "test_706", "label": 1}
+{"query": "The judge avoided the student .", "document": "The judge avoided the student that saw the actors .", "idx": "test_707", "label": 1}
+{"query": "The student advised the athlete .", "document": "The authors stopped the student that advised the athlete .", "idx": "test_708", "label": 1}
+{"query": "Authors called the president .", "document": "Happy authors called the president .", "idx": "test_709", "label": 1}
+{"query": "The scientist believed the professor .", "document": "The scientist believed the professor recognized the doctor .", "idx": "test_710", "label": 0}
+{"query": "The tourists stopped the banker .", "document": "The banker who recognized the tourists stopped the actors .", "idx": "test_711", "label": 0}
+{"query": "The senator admired the authors .", "document": "The authors were admired by the senator .", "idx": "test_712", "label": 1}
+{"query": "The authors thanked the doctors .", "document": "Whether or not the managers admired the athletes , the authors thanked the doctors .", "idx": "test_713", "label": 1}
+{"query": "The scientist believed the judge .", "document": "The scientist believed the judge that the senators supported .", "idx": "test_714", "label": 1}
+{"query": "The artist arrived .", "document": "The secretaries and the artist arrived .", "idx": "test_715", "label": 1}
+{"query": "The tourist admired the student .", "document": "The athlete saw the student that the tourist admired .", "idx": "test_716", "label": 1}
+{"query": "The artist slept .", "document": "Whether or not the student stopped the senators , the artist slept .", "idx": "test_717", "label": 1}
+{"query": "The tourist encouraged the actor .", "document": "The doctor claimed that the tourist encouraged the actor .", "idx": "test_718", "label": 0}
+{"query": "The manager stopped the tourist .", "document": "Since the manager stopped the tourist introduced the doctor .", "idx": "test_719", "label": 0}
+{"query": "The presidents performed .", "document": "The senator learned that the presidents performed .", "idx": "test_720", "label": 1}
+{"query": "The artist avoided the actor .", "document": "The artist was avoided by the actor .", "idx": "test_721", "label": 0}
+{"query": "The presidents supported the managers .", "document": "The professors in front of the presidents supported the managers .", "idx": "test_722", "label": 0}
+{"query": "The senator encouraged the scientists .", "document": "Hopefully the senator encouraged the scientists .", "idx": "test_723", "label": 0}
+{"query": "The artists mentioned the professor .", "document": "The students who admired the artists mentioned the professor .", "idx": "test_724", "label": 0}
+{"query": "The artists contacted the scientists .", "document": "The artists were contacted by the scientists .", "idx": "test_725", "label": 0}
+{"query": "The athletes danced .", "document": "The student believed that the athletes danced .", "idx": "test_726", "label": 0}
+{"query": "The artists saw the professors .", "document": "The students remembered that the artists saw the professors .", "idx": "test_727", "label": 1}
+{"query": "The athletes mentioned the artists .", "document": "The artists who the athletes helped mentioned the student .", "idx": "test_728", "label": 0}
+{"query": "The secretaries resigned .", "document": "The scientists that contacted the secretaries resigned .", "idx": "test_729", "label": 0}
+{"query": "The lawyers stopped the manager .", "document": "Supposedly the lawyers stopped the manager .", "idx": "test_730", "label": 0}
+{"query": "The secretary recommended the students .", "document": "The students recommended the secretary behind the scientist .", "idx": "test_731", "label": 0}
+{"query": "The doctor danced .", "document": "The athlete behind the doctor danced .", "idx": "test_732", "label": 0}
+{"query": "The professors believed the lawyers .", "document": "The professors believed the lawyers that supported the secretary .", "idx": "test_733", "label": 1}
+{"query": "The judge waited .", "document": "After the banker shouted , the judge waited .", "idx": "test_734", "label": 1}
+{"query": "Secretaries arrived .", "document": "Angry secretaries arrived .", "idx": "test_735", "label": 1}
+{"query": "The professor called the judges .", "document": "The students performed , and the professor called the judges .", "idx": "test_736", "label": 1}
+{"query": "The secretary hid the students .", "document": "After the secretary hid the students thanked the lawyers .", "idx": "test_737", "label": 0}
+{"query": "The presidents advised the judges .", "document": "The presidents were advised by the judges .", "idx": "test_738", "label": 0}
+{"query": "The bankers avoided the student .", "document": "The bankers that avoided the student encouraged the professor .", "idx": "test_739", "label": 1}
+{"query": "The actors thanked the artists .", "document": "The athlete who helped the actors thanked the artists .", "idx": "test_740", "label": 0}
+{"query": "The lawyers introduced the student .", "document": "Since the lawyers introduced the student , the judges encouraged the scientists .", "idx": "test_741", "label": 1}
+{"query": "The athletes helped the authors .", "document": "The authors helped the athletes .", "idx": "test_742", "label": 0}
+{"query": "The banker recognized the athlete .", "document": "The scientists recognized the banker and the athlete .", "idx": "test_743", "label": 0}
+{"query": "The senator contacted the athletes .", "document": "The senator contacted the athletes near the author .", "idx": "test_744", "label": 1}
+{"query": "The athlete contacted the doctor .", "document": "The doctor was contacted by the athlete .", "idx": "test_745", "label": 1}
+{"query": "The lawyers admired the scientist .", "document": "The lawyers that contacted the author admired the scientist .", "idx": "test_746", "label": 1}
+{"query": "The actor ran .", "document": "Definitely the actor ran .", "idx": "test_747", "label": 1}
+{"query": "The lawyers supported the judge .", "document": "The judge was supported by the lawyers .", "idx": "test_748", "label": 1}
+{"query": "The senator studied the scientists .", "document": "After the senator studied the scientists avoided the students .", "idx": "test_749", "label": 0}
+{"query": "The student recommended the lawyers .", "document": "The tourist recommended the student that the lawyers avoided .", "idx": "test_750", "label": 0}
+{"query": "The judges studied the athlete .", "document": "Although the judges studied the athlete supported the scientist .", "idx": "test_751", "label": 0}
+{"query": "The secretary stopped the doctors .", "document": "If the managers supported the presidents , the secretary stopped the doctors .", "idx": "test_752", "label": 0}
+{"query": "The doctor contacted the author .", "document": "The doctor contacted the author , or the senators slept .", "idx": "test_753", "label": 0}
+{"query": "The doctor performed .", "document": "The manager that advised the doctor performed .", "idx": "test_754", "label": 0}
+{"query": "The tourists thanked the scientists .", "document": "The scientists behind the doctor thanked the tourists .", "idx": "test_755", "label": 0}
+{"query": "The tourist contacted the student .", "document": "The manager contacted the tourist who the student saw .", "idx": "test_756", "label": 0}
+{"query": "The lawyers saw the author .", "document": "The senator resigned , or the lawyers saw the author .", "idx": "test_757", "label": 0}
+{"query": "The actors left .", "document": "The actors left the region .", "idx": "test_758", "label": 1}
+{"query": "The judge supported the professor .", "document": "The judge supported the student and the professor .", "idx": "test_759", "label": 1}
+{"query": "The authors introduced the bankers .", "document": "The authors in front of the artists introduced the bankers .", "idx": "test_760", "label": 1}
+{"query": "The senators contacted the tourists .", "document": "The tourists contacted the secretaries in front of the senators .", "idx": "test_761", "label": 0}
+{"query": "The scientist called the tourists .", "document": "The senators called the tourists and the scientist .", "idx": "test_762", "label": 0}
+{"query": "The scientist performed .", "document": "If the banker ran , the scientist performed .", "idx": "test_763", "label": 0}
+{"query": "The secretary mentioned the manager .", "document": "The president and the secretary mentioned the manager .", "idx": "test_764", "label": 1}
+{"query": "The lawyers believed the students .", "document": "The lawyers believed the students that arrived .", "idx": "test_765", "label": 1}
+{"query": "The senator resigned .", "document": "The students said that the senator resigned .", "idx": "test_766", "label": 0}
+{"query": "The tourist slept .", "document": "The tourist slept , or the senator danced .", "idx": "test_767", "label": 0}
+{"query": "The scientists helped in the laboratory .", "document": "The scientists helped in the laboratory recognized the bankers .", "idx": "test_768", "label": 0}
+{"query": "The lawyer admired the scientist .", "document": "The scientist that thanked the lawyer admired the professor .", "idx": "test_769", "label": 0}
+{"query": "The lawyers heard the senators .", "document": "The lawyers heard the senators performed .", "idx": "test_770", "label": 0}
+{"query": "The judge recommended the student .", "document": "The athlete next to the judge recommended the student .", "idx": "test_771", "label": 0}
+{"query": "The managers contacted the lawyer .", "document": "The managers contacted the lawyer next to the artists .", "idx": "test_772", "label": 1}
+{"query": "The judge recommended the actors .", "document": "The judge who shouted recommended the actors .", "idx": "test_773", "label": 1}
+{"query": "The scientist shouted .", "document": "Certainly the scientist shouted .", "idx": "test_774", "label": 1}
+{"query": "The artists investigated in the library .", "document": "The artists investigated in the library stopped the scientists .", "idx": "test_775", "label": 0}
+{"query": "The artists paid the athlete .", "document": "When the artists paid the athlete recognized the actor .", "idx": "test_776", "label": 0}
+{"query": "The students waited .", "document": "Hopefully the students waited .", "idx": "test_777", "label": 0}
+{"query": "Bankers admired the artists .", "document": "Serious bankers admired the artists .", "idx": "test_778", "label": 1}
+{"query": "The presidents saw the professor .", "document": "The professor saw the presidents .", "idx": "test_779", "label": 0}
+{"query": "The scientist stopped the students .", "document": "Unless the author recommended the judge , the scientist stopped the students .", "idx": "test_780", "label": 0}
+{"query": "The tourists called the lawyers .", "document": "The doctor forgot that the tourists called the lawyers .", "idx": "test_781", "label": 1}
+{"query": "The secretary danced .", "document": "Supposedly the secretary danced .", "idx": "test_782", "label": 0}
+{"query": "The doctor called the presidents .", "document": "The presidents called the doctor .", "idx": "test_783", "label": 0}
+{"query": "The artists recognized the authors .", "document": "The artists recognized the authors , and the judges admired the scientist .", "idx": "test_784", "label": 1}
+{"query": "The artists shouted .", "document": "The judges and the artists shouted .", "idx": "test_785", "label": 1}
+{"query": "The students shouted .", "document": "The secretaries knew that the students shouted .", "idx": "test_786", "label": 1}
+{"query": "The tourist resigned .", "document": "Hopefully the tourist resigned .", "idx": "test_787", "label": 0}
+{"query": "The bankers advised the presidents .", "document": "The presidents were advised by the bankers .", "idx": "test_788", "label": 1}
+{"query": "The students introduced the judge .", "document": "The students were introduced by the judge .", "idx": "test_789", "label": 0}
+{"query": "The judge recognized the professor .", "document": "The doctors recognized the judge in front of the professor .", "idx": "test_790", "label": 0}
+{"query": "The actor recommended the professors .", "document": "The actor recommended the professors , or the authors saw the scientists .", "idx": "test_791", "label": 0}
+{"query": "The secretaries studied in the laboratory .", "document": "The secretaries studied in the laboratory mentioned the tourist .", "idx": "test_792", "label": 0}
+{"query": "The actor heard the scientists .", "document": "The actor heard the scientists arrived .", "idx": "test_793", "label": 0}
+{"query": "The student performed .", "document": "If the student performed , the doctors recommended the banker .", "idx": "test_794", "label": 0}
+{"query": "The student admired the lawyer .", "document": "The student admired the lawyer , or the athletes shouted .", "idx": "test_795", "label": 0}
+{"query": "The judge shouted .", "document": "If the judge shouted , the professors encouraged the senators .", "idx": "test_796", "label": 0}
+{"query": "The secretary recommended the professor .", "document": "The professor was recommended by the secretary .", "idx": "test_797", "label": 1}
+{"query": "The presidents believed the lawyer .", "document": "The presidents who the senator stopped believed the lawyer .", "idx": "test_798", "label": 1}
+{"query": "The artist presented the authors .", "document": "Since the artist presented the authors admired the students .", "idx": "test_799", "label": 0}
+{"query": "The banker advised the student .", "document": "Of course the banker advised the student .", "idx": "test_800", "label": 1}
+{"query": "The lawyer thanked the artists .", "document": "The banker thanked the lawyer and the artists .", "idx": "test_801", "label": 0}
+{"query": "Presidents avoided the actor .", "document": "Serious presidents avoided the actor .", "idx": "test_802", "label": 1}
+{"query": "The presidents helped the secretaries .", "document": "The presidents helped the secretaries , and the judges avoided the athletes .", "idx": "test_803", "label": 1}
+{"query": "The president stopped the artists .", "document": "The president stopped the artists by the senators .", "idx": "test_804", "label": 1}
+{"query": "The judge supported the banker .", "document": "The judge was supported by the banker .", "idx": "test_805", "label": 0}
+{"query": "The tourist contacted the athletes .", "document": "The tourist next to the lawyer contacted the athletes .", "idx": "test_806", "label": 1}
+{"query": "The bankers called the athletes .", "document": "If the students arrived , the bankers called the athletes .", "idx": "test_807", "label": 0}
+{"query": "The athletes read .", "document": "The athletes read the poem .", "idx": "test_808", "label": 1}
+{"query": "The actor left .", "document": "The actor left the region .", "idx": "test_809", "label": 1}
+{"query": "The lawyers stopped the athletes .", "document": "The lawyers stopped the athletes who the presidents recognized .", "idx": "test_810", "label": 1}
+{"query": "The judges waited .", "document": "The doctors danced , or the judges waited .", "idx": "test_811", "label": 0}
+{"query": "The actor saw the lawyers .", "document": "The actor saw the lawyers that mentioned the secretaries .", "idx": "test_812", "label": 1}
+{"query": "The president heard the senators .", "document": "The president heard the senators advised the manager .", "idx": "test_813", "label": 0}
+{"query": "The authors encouraged the students .", "document": "The authors encouraged the students behind the manager .", "idx": "test_814", "label": 1}
+{"query": "The senator saw the secretaries .", "document": "The actor supported the managers , and the senator saw the secretaries .", "idx": "test_815", "label": 1}
+{"query": "The judges supported the presidents .", "document": "Probably the judges supported the presidents .", "idx": "test_816", "label": 0}
+{"query": "The lawyers admired the managers .", "document": "The managers admired the lawyers .", "idx": "test_817", "label": 0}
+{"query": "The presidents ran .", "document": "After the professors resigned , the presidents ran .", "idx": "test_818", "label": 1}
+{"query": "The managers supported the actor .", "document": "The managers supported the actor next to the lawyers .", "idx": "test_819", "label": 1}
+{"query": "The judge mentioned the actor .", "document": "The judge who admired the doctors mentioned the actor .", "idx": "test_820", "label": 1}
+{"query": "The president waited .", "document": "In case the president waited , the secretaries saw the manager .", "idx": "test_821", "label": 0}
+{"query": "The manager called the secretaries .", "document": "The bankers near the manager called the secretaries .", "idx": "test_822", "label": 0}
+{"query": "The lawyer believed the judge .", "document": "The lawyer believed the judge slept .", "idx": "test_823", "label": 0}
+{"query": "The tourist recognized the artist .", "document": "The tourist near the doctor recognized the artist .", "idx": "test_824", "label": 1}
+{"query": "The managers mentioned the presidents .", "document": "The senator forgot that the managers mentioned the presidents .", "idx": "test_825", "label": 1}
+{"query": "The president thanked the author .", "document": "The lawyers contacted the president who thanked the author .", "idx": "test_826", "label": 1}
+{"query": "The artist called the senators .", "document": "The artist behind the actor called the senators .", "idx": "test_827", "label": 1}
+{"query": "The managers stopped the president .", "document": "The managers stopped the president in front of the athletes .", "idx": "test_828", "label": 1}
+{"query": "The banker recommended the doctors .", "document": "Of course the banker recommended the doctors .", "idx": "test_829", "label": 1}
+{"query": "The athlete advised the artist .", "document": "The president that saw the athlete advised the artist .", "idx": "test_830", "label": 0}
+{"query": "The managers investigated in the museum .", "document": "The managers investigated in the museum introduced the bankers .", "idx": "test_831", "label": 0}
+{"query": "The athletes advised the tourist .", "document": "The athletes were advised by the tourist .", "idx": "test_832", "label": 0}
+{"query": "The secretaries left .", "document": "The secretaries left the valley .", "idx": "test_833", "label": 1}
+{"query": "The professor mentioned the senator .", "document": "The doctor stopped the professor that mentioned the senator .", "idx": "test_834", "label": 1}
+{"query": "The doctors believed the athletes .", "document": "The athletes believed the doctors that stopped the author .", "idx": "test_835", "label": 0}
+{"query": "The lawyers danced .", "document": "Obviously the lawyers danced .", "idx": "test_836", "label": 1}
+{"query": "The professors arrived .", "document": "Since the senators saw the actor , the professors arrived .", "idx": "test_837", "label": 1}
+{"query": "The secretary contacted the presidents .", "document": "The senator thanked the professor , or the secretary contacted the presidents .", "idx": "test_838", "label": 0}
+{"query": "The president admired the secretaries .", "document": "Certainly the president admired the secretaries .", "idx": "test_839", "label": 1}
+{"query": "The author contacted the actors .", "document": "The actors were contacted by the author .", "idx": "test_840", "label": 1}
+{"query": "Judges performed .", "document": "Serious judges performed .", "idx": "test_841", "label": 1}
+{"query": "The professors slept .", "document": "Hopefully the professors slept .", "idx": "test_842", "label": 0}
+{"query": "The artist helped the professor .", "document": "The artist helped the professor next to the senator .", "idx": "test_843", "label": 1}
+{"query": "The doctors mentioned the professors .", "document": "The doctors mentioned the professors by the lawyers .", "idx": "test_844", "label": 1}
+{"query": "The judges supported the manager .", "document": "The scientists supported the judges and the manager .", "idx": "test_845", "label": 0}
+{"query": "The athletes paid .", "document": "The athletes paid the managers .", "idx": "test_846", "label": 1}
+{"query": "The author recognized the students .", "document": "The author recognized the students that performed .", "idx": "test_847", "label": 1}
+{"query": "The actor believed the secretaries .", "document": "The secretaries were believed by the actor .", "idx": "test_848", "label": 1}
+{"query": "The secretary shouted .", "document": "If the secretary shouted , the actors avoided the artist .", "idx": "test_849", "label": 0}
+{"query": "The manager advised the artists .", "document": "The manager that the judge recommended advised the artists .", "idx": "test_850", "label": 1}
+{"query": "The students supported the professor .", "document": "Unless the banker encouraged the secretaries , the students supported the professor .", "idx": "test_851", "label": 0}
+{"query": "The judge avoided the artist .", "document": "The artist was avoided by the judge .", "idx": "test_852", "label": 1}
+{"query": "The senators called the scientists .", "document": "The senators called the scientists and the presidents .", "idx": "test_853", "label": 1}
+{"query": "The president avoided the athlete .", "document": "The athlete and the president avoided the tourist .", "idx": "test_854", "label": 0}
+{"query": "The students admired the lawyers .", "document": "If the manager ran , the students admired the lawyers .", "idx": "test_855", "label": 0}
+{"query": "The judges called the doctors .", "document": "The judges called the athlete and the doctors .", "idx": "test_856", "label": 1}
+{"query": "The manager danced .", "document": "If the manager danced , the professors contacted the bankers .", "idx": "test_857", "label": 0}
+{"query": "The scientist recognized the managers .", "document": "The senators encouraged the doctor , and the scientist recognized the managers .", "idx": "test_858", "label": 1}
+{"query": "The artists resigned .", "document": "The presidents advised the tourist , or the artists resigned .", "idx": "test_859", "label": 0}
+{"query": "The professors advised the author .", "document": "The professors were advised by the author .", "idx": "test_860", "label": 0}
+{"query": "The presidents introduced the senator .", "document": "The senator by the presidents introduced the lawyer .", "idx": "test_861", "label": 0}
+{"query": "The actors believed the presidents .", "document": "The artist resigned , or the actors believed the presidents .", "idx": "test_862", "label": 0}
+{"query": "The presidents avoided the professors .", "document": "The presidents and the authors avoided the professors .", "idx": "test_863", "label": 1}
+{"query": "The managers knew the judges .", "document": "The managers knew the judges admired the tourist .", "idx": "test_864", "label": 0}
+{"query": "The actors contacted the senator .", "document": "The author that helped the actors contacted the senator .", "idx": "test_865", "label": 0}
+{"query": "The lawyer believed the bankers .", "document": "The bankers believed the lawyer next to the judge .", "idx": "test_866", "label": 0}
+{"query": "The student paid in the school .", "document": "The student paid in the school danced .", "idx": "test_867", "label": 0}
+{"query": "The authors believed the scientists .", "document": "The authors and the secretaries believed the scientists .", "idx": "test_868", "label": 1}
+{"query": "The scientists introduced the lawyers .", "document": "The scientists behind the artists introduced the lawyers .", "idx": "test_869", "label": 1}
+{"query": "The judge stopped the lawyers .", "document": "The athletes by the judge stopped the lawyers .", "idx": "test_870", "label": 0}
+{"query": "The judge waited .", "document": "The student resigned , and the judge waited .", "idx": "test_871", "label": 1}
+{"query": "The doctors introduced the professor .", "document": "Unless the actors recognized the tourists , the doctors introduced the professor .", "idx": "test_872", "label": 0}
+{"query": "The managers studied in the laboratory .", "document": "The managers studied in the laboratory slept .", "idx": "test_873", "label": 0}
+{"query": "The athlete advised the manager .", "document": "The athlete advised the manager , and the judge contacted the banker .", "idx": "test_874", "label": 1}
+{"query": "The judges ran .", "document": "The managers near the judges ran .", "idx": "test_875", "label": 0}
+{"query": "The artists contacted the secretaries .", "document": "The judges claimed that the artists contacted the secretaries .", "idx": "test_876", "label": 0}
+{"query": "The judges waited .", "document": "If the scientists contacted the tourist , the judges waited .", "idx": "test_877", "label": 0}
+{"query": "Professors admired the secretary .", "document": "Serious professors admired the secretary .", "idx": "test_878", "label": 1}
+{"query": "The tourists arrived .", "document": "In case the president introduced the bankers , the tourists arrived .", "idx": "test_879", "label": 1}
+{"query": "The professors fought the manager .", "document": "Since the professors fought the manager mentioned the scientists .", "idx": "test_880", "label": 0}
+{"query": "The secretary paid in the laboratory .", "document": "The secretary paid in the laboratory thanked the author .", "idx": "test_881", "label": 0}
+{"query": "The tourist believed the presidents .", "document": "The tourist believed the presidents mentioned the artists .", "idx": "test_882", "label": 0}
+{"query": "Doctors thanked the athletes .", "document": "Popular doctors thanked the athletes .", "idx": "test_883", "label": 1}
+{"query": "The judge left .", "document": "The judge left the neighborhood .", "idx": "test_884", "label": 1}
+{"query": "The president waited .", "document": "Hopefully the president waited .", "idx": "test_885", "label": 0}
+{"query": "The doctors avoided the artists .", "document": "The doctors avoided the artists who the bankers recommended .", "idx": "test_886", "label": 1}
+{"query": "The managers believed the authors .", "document": "Hopefully the managers believed the authors .", "idx": "test_887", "label": 0}
+{"query": "The professors danced .", "document": "If the secretaries called the lawyer , the professors danced .", "idx": "test_888", "label": 0}
+{"query": "The doctors recommended the lawyer .", "document": "The doctors who advised the senators recommended the lawyer .", "idx": "test_889", "label": 1}
+{"query": "Doctors introduced the actors .", "document": "Important doctors introduced the actors .", "idx": "test_890", "label": 1}
+{"query": "The actor presented in the office .", "document": "The presidents contacted the actor presented in the office .", "idx": "test_891", "label": 0}
+{"query": "The secretaries introduced the judge .", "document": "The judge introduced the secretaries .", "idx": "test_892", "label": 0}
+{"query": "The actors thanked the scientist .", "document": "The actors thanked the scientist , or the professor contacted the student .", "idx": "test_893", "label": 0}
+{"query": "The judge introduced the doctors .", "document": "The presidents introduced the judge in front of the doctors .", "idx": "test_894", "label": 0}
+{"query": "Authors called the senators .", "document": "Helpful authors called the senators .", "idx": "test_895", "label": 1}
+{"query": "The senators believed the presidents .", "document": "The professor saw the actors , and the senators believed the presidents .", "idx": "test_896", "label": 1}
+{"query": "The artist encouraged the scientists .", "document": "The doctors helped the scientists that the artist encouraged .", "idx": "test_897", "label": 1}
+{"query": "The professors advised the secretary .", "document": "The professors in front of the author advised the secretary .", "idx": "test_898", "label": 1}
+{"query": "The bankers slept .", "document": "The secretaries waited , or the bankers slept .", "idx": "test_899", "label": 0}
+{"query": "The doctors believed the secretaries .", "document": "The doctors believed the secretaries danced .", "idx": "test_900", "label": 0}
+{"query": "The professor stopped the scientist .", "document": "Supposedly the professor stopped the scientist .", "idx": "test_901", "label": 0}
+{"query": "The student performed .", "document": "Certainly the student performed .", "idx": "test_902", "label": 1}
+{"query": "The bankers ran .", "document": "If the doctors believed the author , the bankers ran .", "idx": "test_903", "label": 0}
+{"query": "The doctors recognized the judges .", "document": "The doctors recognized the judges , and the senator arrived .", "idx": "test_904", "label": 1}
+{"query": "The lawyer called the secretary .", "document": "The student called the lawyer and the secretary .", "idx": "test_905", "label": 0}
+{"query": "The actors recognized the judges .", "document": "The doctor who helped the actors recognized the judges .", "idx": "test_906", "label": 0}
+{"query": "The artists avoided the tourists .", "document": "The secretaries contacted the tourists who the artists avoided .", "idx": "test_907", "label": 1}
+{"query": "The scientist thanked the senator .", "document": "The senator thanked the scientist .", "idx": "test_908", "label": 0}
+{"query": "The tourists avoided the doctor .", "document": "The tourists and the scientists avoided the doctor .", "idx": "test_909", "label": 1}
+{"query": "The tourist mentioned the presidents .", "document": "Although the tourist mentioned the presidents , the scientist resigned .", "idx": "test_910", "label": 1}
+{"query": "The managers slept .", "document": "Definitely the managers slept .", "idx": "test_911", "label": 1}
+{"query": "The actors resigned .", "document": "Unless the actors resigned , the banker arrived .", "idx": "test_912", "label": 0}
+{"query": "The manager saw the lawyers .", "document": "Certainly the manager saw the lawyers .", "idx": "test_913", "label": 1}
+{"query": "The actors stopped the professors .", "document": "Hopefully the actors stopped the professors .", "idx": "test_914", "label": 0}
+{"query": "The banker mentioned the doctor .", "document": "The doctor mentioned the banker .", "idx": "test_915", "label": 0}
+{"query": "The banker recommended the student .", "document": "The banker behind the senator recommended the student .", "idx": "test_916", "label": 1}
+{"query": "Tourists danced .", "document": "Famous tourists danced .", "idx": "test_917", "label": 1}
+{"query": "The actor introduced the professor .", "document": "The actor introduced the professor that admired the scientist .", "idx": "test_918", "label": 1}
+{"query": "The lawyers contacted the manager .", "document": "The lawyers next to the senator contacted the manager .", "idx": "test_919", "label": 1}
+{"query": "The tourist believed the student .", "document": "The tourist believed the student who the authors introduced .", "idx": "test_920", "label": 1}
+{"query": "The doctors believed the banker .", "document": "The doctors believed the banker that the artist encouraged .", "idx": "test_921", "label": 1}
+{"query": "The authors believed the scientist .", "document": "The senator believed the authors and the scientist .", "idx": "test_922", "label": 0}
+{"query": "The professor mentioned the senators .", "document": "The professor mentioned the senators next to the authors .", "idx": "test_923", "label": 1}
+{"query": "The bankers resigned .", "document": "The president in front of the bankers resigned .", "idx": "test_924", "label": 0}
+{"query": "Scientists introduced the president .", "document": "Famous scientists introduced the president .", "idx": "test_925", "label": 1}
+{"query": "The banker avoided the managers .", "document": "The managers that the banker avoided recommended the author .", "idx": "test_926", "label": 1}
+{"query": "The presidents believed the doctor .", "document": "The doctor believed the presidents .", "idx": "test_927", "label": 0}
+{"query": "The student slept .", "document": "After the student slept , the tourist believed the scientists .", "idx": "test_928", "label": 1}
+{"query": "The presidents presented the student .", "document": "Although the presidents presented the student believed the doctors .", "idx": "test_929", "label": 0}
+{"query": "The senator saw the judges .", "document": "The tourist saw the senator and the judges .", "idx": "test_930", "label": 0}
+{"query": "The doctor advised the bankers .", "document": "The bankers were advised by the doctor .", "idx": "test_931", "label": 1}
+{"query": "The banker performed .", "document": "In case the banker performed , the lawyers advised the authors .", "idx": "test_932", "label": 0}
+{"query": "Authors waited .", "document": "Happy authors waited .", "idx": "test_933", "label": 1}
+{"query": "Judges shouted .", "document": "Young judges shouted .", "idx": "test_934", "label": 1}
+{"query": "The tourists recommended the scientist .", "document": "While the tourists recommended the scientist , the secretary resigned .", "idx": "test_935", "label": 1}
+{"query": "The bankers thanked the lawyer .", "document": "Though the bankers thanked the lawyer , the secretary slept .", "idx": "test_936", "label": 1}
+{"query": "The athlete saw the professor .", "document": "The athlete saw the professor and the judges .", "idx": "test_937", "label": 1}
+{"query": "The doctor paid the senator .", "document": "Although the doctor paid the senator performed .", "idx": "test_938", "label": 0}
+{"query": "The artist investigated in the library .", "document": "The students mentioned the artist investigated in the library .", "idx": "test_939", "label": 0}
+{"query": "The authors thanked the lawyers .", "document": "The banker thanked the authors and the lawyers .", "idx": "test_940", "label": 0}
+{"query": "The athletes admired the banker .", "document": "The managers in front of the athletes admired the banker .", "idx": "test_941", "label": 0}
+{"query": "Judges stopped the athletes .", "document": "Angry judges stopped the athletes .", "idx": "test_942", "label": 1}
+{"query": "The manager contacted the the senator .", "document": "The professors contacted the manager that saw the senator .", "idx": "test_943", "label": 0}
+{"query": "The judges believed the scientist .", "document": "The judges believed the scientist encouraged the students .", "idx": "test_944", "label": 0}
+{"query": "The students arrived .", "document": "If the managers believed the lawyers , the students arrived .", "idx": "test_945", "label": 0}
+{"query": "The athlete stopped the judge .", "document": "The authors claimed that the athlete stopped the judge .", "idx": "test_946", "label": 0}
+{"query": "Actors helped the doctors .", "document": "Young actors helped the doctors .", "idx": "test_947", "label": 1}
+{"query": "The actor believed the lawyer .", "document": "The lawyer who mentioned the actor believed the judges .", "idx": "test_948", "label": 0}
+{"query": "The manager stopped the doctors .", "document": "The scientist assumed that the manager stopped the doctors .", "idx": "test_949", "label": 0}
+{"query": "The athlete helped the judge .", "document": "The athlete helped the judge behind the artists .", "idx": "test_950", "label": 1}
+{"query": "Tourists recommended the athletes .", "document": "Angry tourists recommended the athletes .", "idx": "test_951", "label": 1}
+{"query": "The athlete ran .", "document": "The athlete ran , or the tourists admired the banker .", "idx": "test_952", "label": 0}
+{"query": "The actors helped the senator .", "document": "The senator helped the actors .", "idx": "test_953", "label": 0}
+{"query": "The doctors investigated in the laboratory .", "document": "The doctors investigated in the laboratory arrived .", "idx": "test_954", "label": 0}
+{"query": "The managers admired the athletes .", "document": "Certainly the managers admired the athletes .", "idx": "test_955", "label": 1}
+{"query": "The doctors called the lawyers .", "document": "Of course the doctors called the lawyers .", "idx": "test_956", "label": 1}
+{"query": "The banker helped the scientist .", "document": "Unless the actor mentioned the tourists , the banker helped the scientist .", "idx": "test_957", "label": 0}
+{"query": "The professor believed the actors .", "document": "The professor believed the actors thanked the senator .", "idx": "test_958", "label": 0}
+{"query": "The professor mentioned the tourist .", "document": "The manager contacted the professor who mentioned the tourist .", "idx": "test_959", "label": 1}
+{"query": "The banker saw the managers .", "document": "The banker saw the managers who the lawyer mentioned .", "idx": "test_960", "label": 1}
+{"query": "The actor waited .", "document": "The senators who mentioned the actor waited .", "idx": "test_961", "label": 0}
+{"query": "The athlete helped the lawyers .", "document": "The president supported the scientists , and the athlete helped the lawyers .", "idx": "test_962", "label": 1}
+{"query": "The senators helped in the library .", "document": "The senators helped in the library waited .", "idx": "test_963", "label": 0}
+{"query": "The judge advised the athlete .", "document": "Maybe the judge advised the athlete .", "idx": "test_964", "label": 0}
+{"query": "The professors recommended the secretaries .", "document": "The scientist that stopped the secretaries recommended the professors .", "idx": "test_965", "label": 0}
+{"query": "The manager recommended the secretaries .", "document": "In case the manager recommended the secretaries , the actors mentioned the doctor .", "idx": "test_966", "label": 0}
+{"query": "The tourist introduced the secretary .", "document": "The secretary introduced the tourist who encouraged the judges .", "idx": "test_967", "label": 0}
+{"query": "The artists thanked the students .", "document": "The presidents admired the artists who thanked the students .", "idx": "test_968", "label": 1}
+{"query": "The actor recommended the bankers .", "document": "The lawyers recommended the actor and the bankers .", "idx": "test_969", "label": 0}
+{"query": "Senators waited .", "document": "Popular senators waited .", "idx": "test_970", "label": 1}
+{"query": "The student called the athletes .", "document": "In case the president shouted , the student called the athletes .", "idx": "test_971", "label": 1}
+{"query": "The secretaries danced .", "document": "If the actor arrived , the secretaries danced .", "idx": "test_972", "label": 0}
+{"query": "The managers helped the judges .", "document": "The student helped the managers behind the judges .", "idx": "test_973", "label": 0}
+{"query": "The students ran .", "document": "Hopefully the students ran .", "idx": "test_974", "label": 0}
+{"query": "The bankers recognized the actors .", "document": "The secretaries who supported the bankers recognized the actors .", "idx": "test_975", "label": 0}
+{"query": "The judges saw the manager .", "document": "Maybe the judges saw the manager .", "idx": "test_976", "label": 0}
+{"query": "The artists contacted the doctors .", "document": "The doctors were contacted by the artists .", "idx": "test_977", "label": 1}
+{"query": "The athletes read .", "document": "The athletes read the story .", "idx": "test_978", "label": 1}
+{"query": "The athlete advised the managers .", "document": "Obviously the athlete advised the managers .", "idx": "test_979", "label": 1}
+{"query": "The bankers called the student .", "document": "Whether or not the bankers called the student , the artists shouted .", "idx": "test_980", "label": 0}
+{"query": "The artist encouraged the athlete .", "document": "The actors saw the artist who encouraged the athlete .", "idx": "test_981", "label": 1}
+{"query": "The lawyer saw the athlete .", "document": "The artists by the lawyer saw the athlete .", "idx": "test_982", "label": 0}
+{"query": "The secretaries mentioned the presidents .", "document": "The secretaries next to the lawyers mentioned the presidents .", "idx": "test_983", "label": 1}
+{"query": "The president contacted the professors .", "document": "Certainly the president contacted the professors .", "idx": "test_984", "label": 1}
+{"query": "The managers encouraged the scientist .", "document": "The managers who slept encouraged the scientist .", "idx": "test_985", "label": 1}
+{"query": "The managers recognized the lawyers .", "document": "The lawyers in front of the managers recognized the professor .", "idx": "test_986", "label": 0}
+{"query": "The tourists advised the actors .", "document": "The actors who the tourists advised recommended the judges .", "idx": "test_987", "label": 1}
+{"query": "The author introduced the doctors .", "document": "The bankers that encouraged the author introduced the doctors .", "idx": "test_988", "label": 0}
+{"query": "The scientist heard the author .", "document": "The scientist heard the author mentioned the student .", "idx": "test_989", "label": 0}
+{"query": "The athletes believed the tourists .", "document": "The athletes believed the tourists that shouted .", "idx": "test_990", "label": 1}
+{"query": "The athlete arrived .", "document": "The athlete arrived , or the banker advised the professor .", "idx": "test_991", "label": 0}
+{"query": "The actors paid in the museum .", "document": "The professors admired the actors paid in the museum .", "idx": "test_992", "label": 0}
+{"query": "The students introduced the authors .", "document": "The authors introduced the students .", "idx": "test_993", "label": 0}
+{"query": "The judge paid .", "document": "The judge paid the author .", "idx": "test_994", "label": 1}
+{"query": "The actor stopped the senators .", "document": "Since the actor stopped the senators called the artists .", "idx": "test_995", "label": 0}
+{"query": "The president recognized the athletes .", "document": "The scientist that encouraged the president recognized the athletes .", "idx": "test_996", "label": 0}
+{"query": "The bankers stopped the author .", "document": "Of course the bankers stopped the author .", "idx": "test_997", "label": 1}
+{"query": "The manager helped in the museum .", "document": "The bankers avoided the manager helped in the museum .", "idx": "test_998", "label": 0}
+{"query": "The secretary called the president .", "document": "The secretary and the lawyers called the president .", "idx": "test_999", "label": 1}
