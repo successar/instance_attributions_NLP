@@ -142,3 +142,9 @@ cython_debug/
 outputs/
 Datasets/*
 !Datasets/SST
+
+submit_on_discovery.py
+update_datasets_on_discovery.sh
+discovery_files/
+get_run_outputs.sh
+disc_comm.sh

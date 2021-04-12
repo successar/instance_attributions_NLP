@@ -1,1 +1,0 @@
-ssh disc "cat /scratch/jain.sar/runs/gpu_sbatch.sh.$2.$1"
