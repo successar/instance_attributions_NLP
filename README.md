@@ -1,3 +1,10 @@
+# An Empirical Comparison of Instance Attribution Methods for NLP
+
+This repository is the implementation for the paper 
+"[An Empirical Comparison of Instance Attribution Methods for NLP](https://arxiv.org/abs/2104.04128)"
+
+# Instruction
+
 This project uses Allennlp + Pytorch.
 
 To install the requirements, use the `conda_env.yml` file .
